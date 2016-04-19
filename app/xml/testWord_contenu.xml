@@ -1,0 +1,1853 @@
+                  <w:t xml:space="preserve">Cahier de test -110420161412</w:t>
+                  <w:t xml:space="preserve">G&#233;n&#233;r&#233; le 11/04/2016 &#224; 14:12</w:t>
+            <w:t xml:space="preserve">Sommaire</w:t>
+              <w:t>1.</w:t>
+              <w:t xml:space="preserve">undefined</w:t>
+              <w:t>3</w:t>
+              <w:t>1.1.</w:t>
+              <w:t>[</w:t>
+              <w:t xml:space="preserve">undefined</w:t>
+              <w:t>]</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">undefined</w:t>
+              <w:t>3</w:t>
+        <w:t xml:space="preserve">Roissy P&#244;le</w:t>
+        <w:t xml:space="preserve">Tests Fonctionnels &gt; Serveur &gt; 1 Mise en place IHM</w:t>
+        <w:t xml:space="preserve">Fiche 1 - Acc&#232;s &#224; l'IHM</w:t>
+        <w:t xml:space="preserve">Cr&#233;&#233;</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">le </w:t>
+        <w:t>&#160;:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">31 juil. 2015 16:36</w:t>
+        <w:t xml:space="preserve"> (</w:t>
+        <w:t xml:space="preserve">par </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">christine.salotti</w:t>
+        <w:t>)</w:t>
+        <w:t xml:space="preserve">Modifi&#233;</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">le </w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">14 ao&#251;t 2015 18:22</w:t>
+        <w:t xml:space="preserve"> (par </w:t>
+        <w:t xml:space="preserve"> christine.salotti</w:t>
+        <w:t xml:space="preserve">)</w:t>
+        <w:t xml:space="preserve">ID</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">530</w:t>
+        <w:t xml:space="preserve">Nature</w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Non d&#233;finie</w:t>
+        <w:t xml:space="preserve">Type</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Non d&#233;fini</w:t>
+        <w:t xml:space="preserve">Statut</w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Approuv&#233;</w:t>
+        <w:t xml:space="preserve">Importance</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Moyenne</w:t>
+        <w:t xml:space="preserve">Jalons</w:t>
+        <w:t xml:space="preserve">:</w:t>
+        <w:t xml:space="preserve">Description</w:t>
+        <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">Pr&#233;-requis</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve">Exigences couvertes</w:t>
+        <w:t xml:space="preserve"> : </w:t>
+        <w:t xml:space="preserve">Roissy P&#244;le</w:t>
+        <w:t xml:space="preserve"> - </w:t>
+        <w:t xml:space="preserve">P015 - Mise en place d'une interface web de supervision des panneaux</w:t>
+        <w:t xml:space="preserve"> (MINOR)</w:t>
+        <w:t xml:space="preserve"> - </w:t>
+        <w:t xml:space="preserve">P016 - Gestion de 3 profils</w:t>
+        <w:t xml:space="preserve"> (MINOR)</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">1</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">2</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">3</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">4</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">5</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Fiche 2 &#8211; Mise &#224; jour de l'heure courante</w:t>
+        <w:t xml:space="preserve">Cr&#233;&#233;</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">le </w:t>
+        <w:t>&#160;:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">31 juil. 2015 16:36</w:t>
+        <w:t xml:space="preserve"> (</w:t>
+        <w:t xml:space="preserve">par </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">christine.salotti</w:t>
+        <w:t>)</w:t>
+        <w:t xml:space="preserve">Modifi&#233;</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">le </w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">3 ao&#251;t 2015 14:08</w:t>
+        <w:t xml:space="preserve"> (par </w:t>
+        <w:t xml:space="preserve"> christine.salotti</w:t>
+        <w:t xml:space="preserve">)</w:t>
+        <w:t xml:space="preserve">ID</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">527</w:t>
+        <w:t xml:space="preserve">Nature</w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Non d&#233;finie</w:t>
+        <w:t xml:space="preserve">Type</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Non d&#233;fini</w:t>
+        <w:t xml:space="preserve">Statut</w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Approuv&#233;</w:t>
+        <w:t xml:space="preserve">Importance</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Haute</w:t>
+        <w:t xml:space="preserve">Jalons</w:t>
+        <w:t xml:space="preserve">:</w:t>
+        <w:t xml:space="preserve">Description</w:t>
+        <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">Pr&#233;-requis</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve">Exigences couvertes</w:t>
+        <w:t xml:space="preserve"> : </w:t>
+        <w:t xml:space="preserve">Roissy P&#244;le</w:t>
+        <w:t xml:space="preserve"> - </w:t>
+        <w:t xml:space="preserve">P025 - Mise &#224; l'heure du SIV sur l'heure du NTP</w:t>
+        <w:t xml:space="preserve"> (CRITICAL)</w:t>
+        <w:t xml:space="preserve"> - </w:t>
+        <w:t xml:space="preserve">P014 - Transmettre le message contenant l'heure courante</w:t>
+        <w:t xml:space="preserve"> (MAJOR)</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">1</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">2</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Fiche 3 - Contr&#244;le des bornes</w:t>
+        <w:t xml:space="preserve">Cr&#233;&#233;</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">le </w:t>
+        <w:t>&#160;:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">31 juil. 2015 16:36</w:t>
+        <w:t xml:space="preserve"> (</w:t>
+        <w:t xml:space="preserve">par </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">christine.salotti</w:t>
+        <w:t>)</w:t>
+        <w:t xml:space="preserve">Modifi&#233;</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">le </w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">11 ao&#251;t 2015 12:15</w:t>
+        <w:t xml:space="preserve"> (par </w:t>
+        <w:t xml:space="preserve"> christine.salotti</w:t>
+        <w:t xml:space="preserve">)</w:t>
+        <w:t xml:space="preserve">ID</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">529</w:t>
+        <w:t xml:space="preserve">Nature</w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Non d&#233;finie</w:t>
+        <w:t xml:space="preserve">Type</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Non d&#233;fini</w:t>
+        <w:t xml:space="preserve">Statut</w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Approuv&#233;</w:t>
+        <w:t xml:space="preserve">Importance</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Moyenne</w:t>
+        <w:t xml:space="preserve">Jalons</w:t>
+        <w:t xml:space="preserve">:</w:t>
+        <w:t xml:space="preserve">Description</w:t>
+        <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">Pr&#233;-requis</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve">Exigences couvertes</w:t>
+        <w:t xml:space="preserve"> : </w:t>
+        <w:t xml:space="preserve">Roissy P&#244;le</w:t>
+        <w:t xml:space="preserve"> - </w:t>
+        <w:t xml:space="preserve">P019 - Param&#233;trage et configuration des panneaux</w:t>
+        <w:t xml:space="preserve"> (MINOR)</w:t>
+        <w:t xml:space="preserve"> - </w:t>
+        <w:t xml:space="preserve">P020 - Envoi de commandes aux panneaux</w:t>
+        <w:t xml:space="preserve"> (MAJOR)</w:t>
+        <w:t xml:space="preserve"> - </w:t>
+        <w:t xml:space="preserve">P024 - Connexion des panneaux</w:t>
+        <w:t xml:space="preserve"> (MINOR)</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">1</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">2</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">3</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">4</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">5</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">6</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">7</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">8</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">9</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Fiche 4 - Consultations des messages</w:t>
+        <w:t xml:space="preserve">Cr&#233;&#233;</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">le </w:t>
+        <w:t>&#160;:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">31 juil. 2015 16:36</w:t>
+        <w:t xml:space="preserve"> (</w:t>
+        <w:t xml:space="preserve">par </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">christine.salotti</w:t>
+        <w:t>)</w:t>
+        <w:t xml:space="preserve">Modifi&#233;</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">le </w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">11 ao&#251;t 2015 12:15</w:t>
+        <w:t xml:space="preserve"> (par </w:t>
+        <w:t xml:space="preserve"> christine.salotti</w:t>
+        <w:t xml:space="preserve">)</w:t>
+        <w:t xml:space="preserve">ID</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">528</w:t>
+        <w:t xml:space="preserve">Nature</w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Non d&#233;finie</w:t>
+        <w:t xml:space="preserve">Type</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Non d&#233;fini</w:t>
+        <w:t xml:space="preserve">Statut</w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Approuv&#233;</w:t>
+        <w:t xml:space="preserve">Importance</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Moyenne</w:t>
+        <w:t xml:space="preserve">Jalons</w:t>
+        <w:t xml:space="preserve">:</w:t>
+        <w:t xml:space="preserve">Description</w:t>
+        <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">Pr&#233;-requis</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve">Exigences couvertes</w:t>
+        <w:t xml:space="preserve"> : </w:t>
+        <w:t xml:space="preserve">Roissy P&#244;le</w:t>
+        <w:t xml:space="preserve"> - </w:t>
+        <w:t xml:space="preserve">P018 - Consultation des messages</w:t>
+        <w:t xml:space="preserve"> (MINOR)</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">1</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">2</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">3</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">4</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">5</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">6</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">7</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">8</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Fiche 5 - D&#233;fauts des bornes</w:t>
+        <w:t xml:space="preserve">Cr&#233;&#233;</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">le </w:t>
+        <w:t>&#160;:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">31 juil. 2015 16:36</w:t>
+        <w:t xml:space="preserve"> (</w:t>
+        <w:t xml:space="preserve">par </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">christine.salotti</w:t>
+        <w:t>)</w:t>
+        <w:t xml:space="preserve">Modifi&#233;</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">le </w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">11 ao&#251;t 2015 12:16</w:t>
+        <w:t xml:space="preserve"> (par </w:t>
+        <w:t xml:space="preserve"> christine.salotti</w:t>
+        <w:t xml:space="preserve">)</w:t>
+        <w:t xml:space="preserve">ID</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">526</w:t>
+        <w:t xml:space="preserve">Nature</w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Non d&#233;finie</w:t>
+        <w:t xml:space="preserve">Type</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Non d&#233;fini</w:t>
+        <w:t xml:space="preserve">Statut</w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Approuv&#233;</w:t>
+        <w:t xml:space="preserve">Importance</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Moyenne</w:t>
+        <w:t xml:space="preserve">Jalons</w:t>
+        <w:t xml:space="preserve">:</w:t>
+        <w:t xml:space="preserve">Description</w:t>
+        <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">Pr&#233;-requis</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve">Exigences couvertes</w:t>
+        <w:t xml:space="preserve"> : </w:t>
+        <w:t xml:space="preserve">Roissy P&#244;le</w:t>
+        <w:t xml:space="preserve"> - </w:t>
+        <w:t xml:space="preserve">P017 - Consultation de l'historique des d&#233;fauts des panneaux</w:t>
+        <w:t xml:space="preserve"> (MINOR)</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">1</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">2</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">3</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">4</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">5</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">6</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Tests Fonctionnels &gt; Serveur &gt; 2 Interface SAE</w:t>
+        <w:t xml:space="preserve">Fiche 06 - Import des donn&#233;es de quais</w:t>
+        <w:t xml:space="preserve">Cr&#233;&#233;</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">le </w:t>
+        <w:t>&#160;:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">31 juil. 2015 16:36</w:t>
+        <w:t xml:space="preserve"> (</w:t>
+        <w:t xml:space="preserve">par </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">christine.salotti</w:t>
+        <w:t>)</w:t>
+        <w:t xml:space="preserve">Modifi&#233;</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">le </w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">14 ao&#251;t 2015 17:10</w:t>
+        <w:t xml:space="preserve"> (par </w:t>
+        <w:t xml:space="preserve"> christine.salotti</w:t>
+        <w:t xml:space="preserve">)</w:t>
+        <w:t xml:space="preserve">ID</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">540</w:t>
+        <w:t xml:space="preserve">Nature</w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Non d&#233;finie</w:t>
+        <w:t xml:space="preserve">Type</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Non d&#233;fini</w:t>
+        <w:t xml:space="preserve">Statut</w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Approuv&#233;</w:t>
+        <w:t xml:space="preserve">Importance</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Haute</w:t>
+        <w:t xml:space="preserve">Jalons</w:t>
+        <w:t xml:space="preserve">:</w:t>
+        <w:t xml:space="preserve">Description</w:t>
+        <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">Pr&#233;-requis</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve">Exigences couvertes</w:t>
+        <w:t xml:space="preserve"> : </w:t>
+        <w:t xml:space="preserve">Roissy P&#244;le</w:t>
+        <w:t xml:space="preserve"> - </w:t>
+        <w:t xml:space="preserve">R002 - Gestion des quais</w:t>
+        <w:t xml:space="preserve"> (MINOR)</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">1</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">2</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">3</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">4</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Fiche 07 - Import des donn&#233;es topologiques et th&#233;oriques</w:t>
+        <w:t xml:space="preserve">Cr&#233;&#233;</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">le </w:t>
+        <w:t>&#160;:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">31 juil. 2015 16:36</w:t>
+        <w:t xml:space="preserve"> (</w:t>
+        <w:t xml:space="preserve">par </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">christine.salotti</w:t>
+        <w:t>)</w:t>
+        <w:t xml:space="preserve">Modifi&#233;</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">le </w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">14 ao&#251;t 2015 17:10</w:t>
+        <w:t xml:space="preserve"> (par </w:t>
+        <w:t xml:space="preserve"> christine.salotti</w:t>
+        <w:t xml:space="preserve">)</w:t>
+        <w:t xml:space="preserve">ID</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">539</w:t>
+        <w:t xml:space="preserve">Nature</w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Non d&#233;finie</w:t>
+        <w:t xml:space="preserve">Type</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Non d&#233;fini</w:t>
+        <w:t xml:space="preserve">Statut</w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Approuv&#233;</w:t>
+        <w:t xml:space="preserve">Importance</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Tr&#232;s haute</w:t>
+        <w:t xml:space="preserve">Jalons</w:t>
+        <w:t xml:space="preserve">:</w:t>
+        <w:t xml:space="preserve">Description</w:t>
+        <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">Pr&#233;-requis</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve">Exigences couvertes</w:t>
+        <w:t xml:space="preserve"> : </w:t>
+        <w:t xml:space="preserve">Roissy P&#244;le</w:t>
+        <w:t xml:space="preserve"> - </w:t>
+        <w:t xml:space="preserve">P001 - Interface th&#233;orique et topologique en Neptune version 1.7</w:t>
+        <w:t xml:space="preserve"> (MAJOR)</w:t>
+        <w:t xml:space="preserve"> - </w:t>
+        <w:t xml:space="preserve">R001 - Lignes r&#233;elles et th&#233;oriques</w:t>
+        <w:t xml:space="preserve"> (CRITICAL)</w:t>
+        <w:t xml:space="preserve"> - </w:t>
+        <w:t xml:space="preserve">P021 - Envoi d'une alarme en cas de perte de communication avec le SAE</w:t>
+        <w:t xml:space="preserve"> (MINOR)</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">1</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">2</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">3</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">4</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Fiche 08 - Import des donn&#233;es topologiques</w:t>
+        <w:t xml:space="preserve">Cr&#233;&#233;</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">le </w:t>
+        <w:t>&#160;:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">11 ao&#251;t 2015 12:13</w:t>
+        <w:t xml:space="preserve"> (</w:t>
+        <w:t xml:space="preserve">par </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">christine.salotti</w:t>
+        <w:t>)</w:t>
+        <w:t xml:space="preserve">Modifi&#233;</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">le </w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">14 ao&#251;t 2015 17:10</w:t>
+        <w:t xml:space="preserve"> (par </w:t>
+        <w:t xml:space="preserve"> christine.salotti</w:t>
+        <w:t xml:space="preserve">)</w:t>
+        <w:t xml:space="preserve">ID</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">542</w:t>
+        <w:t xml:space="preserve">Nature</w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Non d&#233;finie</w:t>
+        <w:t xml:space="preserve">Type</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Non d&#233;fini</w:t>
+        <w:t xml:space="preserve">Statut</w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Approuv&#233;</w:t>
+        <w:t xml:space="preserve">Importance</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Haute</w:t>
+        <w:t xml:space="preserve">Jalons</w:t>
+        <w:t xml:space="preserve">:</w:t>
+        <w:t xml:space="preserve">Description</w:t>
+        <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">Pr&#233;-requis</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve">Exigences couvertes</w:t>
+        <w:t xml:space="preserve"> : </w:t>
+        <w:t xml:space="preserve">Roissy P&#244;le</w:t>
+        <w:t xml:space="preserve"> - </w:t>
+        <w:t xml:space="preserve">P001 - Interface th&#233;orique et topologique en Neptune version 1.7</w:t>
+        <w:t xml:space="preserve"> (MAJOR)</w:t>
+        <w:t xml:space="preserve"> - </w:t>
+        <w:t xml:space="preserve">R001 - Lignes r&#233;elles et th&#233;oriques</w:t>
+        <w:t xml:space="preserve"> (CRITICAL)</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">1</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">2</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">3</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">4</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Fiche 09 - Gestion de requ&#234;te check status</w:t>
+        <w:t xml:space="preserve">Cr&#233;&#233;</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">le </w:t>
+        <w:t>&#160;:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">31 juil. 2015 16:36</w:t>
+        <w:t xml:space="preserve"> (</w:t>
+        <w:t xml:space="preserve">par </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">christine.salotti</w:t>
+        <w:t>)</w:t>
+        <w:t xml:space="preserve">Modifi&#233;</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">le </w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">14 ao&#251;t 2015 17:10</w:t>
+        <w:t xml:space="preserve"> (par </w:t>
+        <w:t xml:space="preserve"> christine.salotti</w:t>
+        <w:t xml:space="preserve">)</w:t>
+        <w:t xml:space="preserve">ID</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">538</w:t>
+        <w:t xml:space="preserve">Nature</w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Non d&#233;finie</w:t>
+        <w:t xml:space="preserve">Type</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Non d&#233;fini</w:t>
+        <w:t xml:space="preserve">Statut</w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Approuv&#233;</w:t>
+        <w:t xml:space="preserve">Importance</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Faible</w:t>
+        <w:t xml:space="preserve">Jalons</w:t>
+        <w:t xml:space="preserve">:</w:t>
+        <w:t xml:space="preserve">Description</w:t>
+        <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">Pr&#233;-requis</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve">Exigences couvertes</w:t>
+        <w:t xml:space="preserve"> : </w:t>
+        <w:t xml:space="preserve">Roissy P&#244;le</w:t>
+        <w:t xml:space="preserve"> - </w:t>
+        <w:t xml:space="preserve">P021 - Envoi d'une alarme en cas de perte de communication avec le SAE</w:t>
+        <w:t xml:space="preserve"> (MINOR)</w:t>
+        <w:t xml:space="preserve"> - </w:t>
+        <w:t xml:space="preserve">P026 - Gestion de requ&#234;te check status avec le SAE</w:t>
+        <w:t xml:space="preserve"> (MINOR)</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">1</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">2</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Fiche 10 - Reception des temps d'attente</w:t>
+        <w:t xml:space="preserve">Cr&#233;&#233;</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">le </w:t>
+        <w:t>&#160;:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">31 juil. 2015 16:36</w:t>
+        <w:t xml:space="preserve"> (</w:t>
+        <w:t xml:space="preserve">par </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">christine.salotti</w:t>
+        <w:t>)</w:t>
+        <w:t xml:space="preserve">Modifi&#233;</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">le </w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">7 sept. 2015 14:43</w:t>
+        <w:t xml:space="preserve"> (par </w:t>
+        <w:t xml:space="preserve"> christine.salotti</w:t>
+        <w:t xml:space="preserve">)</w:t>
+        <w:t xml:space="preserve">ID</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">536</w:t>
+        <w:t xml:space="preserve">Nature</w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Non d&#233;finie</w:t>
+        <w:t xml:space="preserve">Type</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Non d&#233;fini</w:t>
+        <w:t xml:space="preserve">Statut</w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Approuv&#233;</w:t>
+        <w:t xml:space="preserve">Importance</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Haute</w:t>
+        <w:t xml:space="preserve">Jalons</w:t>
+        <w:t xml:space="preserve">:</w:t>
+        <w:t xml:space="preserve">Description</w:t>
+        <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">Pr&#233;-requis</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve">Exigences couvertes</w:t>
+        <w:t xml:space="preserve"> : </w:t>
+        <w:t xml:space="preserve">Roissy P&#244;le</w:t>
+        <w:t xml:space="preserve"> - </w:t>
+        <w:t xml:space="preserve">P002 - Interface temps r&#233;&#233;l v1.0 Profil IDF v2.2</w:t>
+        <w:t xml:space="preserve"> (MAJOR)</w:t>
+        <w:t xml:space="preserve"> - </w:t>
+        <w:t xml:space="preserve">P003 - Interface temps r&#233;&#233;l v2.0 Profil IDF v2.4</w:t>
+        <w:t xml:space="preserve"> (MINOR)</w:t>
+        <w:t xml:space="preserve"> - </w:t>
+        <w:t xml:space="preserve">P007 - Transmettre des temps d'attente et des destinations au BIV</w:t>
+        <w:t xml:space="preserve"> (MAJOR)</w:t>
+        <w:t xml:space="preserve"> - </w:t>
+        <w:t xml:space="preserve">R003 - Transmettre des quais</w:t>
+        <w:t xml:space="preserve"> (MAJOR)</w:t>
+        <w:t xml:space="preserve"> - </w:t>
+        <w:t xml:space="preserve">P008 - Gestion des temps d'attente en minute</w:t>
+        <w:t xml:space="preserve"> (MINOR)</w:t>
+        <w:t xml:space="preserve"> - </w:t>
+        <w:t xml:space="preserve">P010 - Transmettre les temps th&#233;oriques re&#231;u du SAE</w:t>
+        <w:t xml:space="preserve"> (MAJOR)</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">1</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">2</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">3</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">4</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Fiche 11 - Message de service</w:t>
+        <w:t xml:space="preserve">Cr&#233;&#233;</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">le </w:t>
+        <w:t>&#160;:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">31 juil. 2015 16:36</w:t>
+        <w:t xml:space="preserve"> (</w:t>
+        <w:t xml:space="preserve">par </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">christine.salotti</w:t>
+        <w:t>)</w:t>
+        <w:t xml:space="preserve">Modifi&#233;</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">le </w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">14 ao&#251;t 2015 17:58</w:t>
+        <w:t xml:space="preserve"> (par </w:t>
+        <w:t xml:space="preserve"> christine.salotti</w:t>
+        <w:t xml:space="preserve">)</w:t>
+        <w:t xml:space="preserve">ID</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">531</w:t>
+        <w:t xml:space="preserve">Nature</w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Non d&#233;finie</w:t>
+        <w:t xml:space="preserve">Type</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Non d&#233;fini</w:t>
+        <w:t xml:space="preserve">Statut</w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Approuv&#233;</w:t>
+        <w:t xml:space="preserve">Importance</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Moyenne</w:t>
+        <w:t xml:space="preserve">Jalons</w:t>
+        <w:t xml:space="preserve">:</w:t>
+        <w:t xml:space="preserve">Description</w:t>
+        <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">Pr&#233;-requis</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve">Exigences couvertes</w:t>
+        <w:t xml:space="preserve"> : </w:t>
+        <w:t xml:space="preserve">Roissy P&#244;le</w:t>
+        <w:t xml:space="preserve"> - </w:t>
+        <w:t xml:space="preserve">P009 - Gestion des flags</w:t>
+        <w:t xml:space="preserve"> (MINOR)</w:t>
+        <w:t xml:space="preserve"> - </w:t>
+        <w:t xml:space="preserve">P006 - Envoi de ligne/destination (dictionnaire) des BIV des r&#233;ception d'une nouvelle ligne</w:t>
+        <w:t xml:space="preserve"> (MAJOR)</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">1</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">2</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">3</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">4</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Fiche 12 - Reception des messages g&#233;n&#233;raux et ligne</w:t>
+        <w:t xml:space="preserve">Cr&#233;&#233;</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">le </w:t>
+        <w:t>&#160;:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">31 juil. 2015 16:36</w:t>
+        <w:t xml:space="preserve"> (</w:t>
+        <w:t xml:space="preserve">par </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">christine.salotti</w:t>
+        <w:t>)</w:t>
+        <w:t xml:space="preserve">Modifi&#233;</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">le </w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">14 ao&#251;t 2015 17:11</w:t>
+        <w:t xml:space="preserve"> (par </w:t>
+        <w:t xml:space="preserve"> christine.salotti</w:t>
+        <w:t xml:space="preserve">)</w:t>
+        <w:t xml:space="preserve">ID</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">537</w:t>
+        <w:t xml:space="preserve">Nature</w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Non d&#233;finie</w:t>
+        <w:t xml:space="preserve">Type</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Non d&#233;fini</w:t>
+        <w:t xml:space="preserve">Statut</w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Approuv&#233;</w:t>
+        <w:t xml:space="preserve">Importance</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Haute</w:t>
+        <w:t xml:space="preserve">Jalons</w:t>
+        <w:t xml:space="preserve">:</w:t>
+        <w:t xml:space="preserve">Description</w:t>
+        <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">Pr&#233;-requis</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve">Exigences couvertes</w:t>
+        <w:t xml:space="preserve"> : </w:t>
+        <w:t xml:space="preserve">Roissy P&#244;le</w:t>
+        <w:t xml:space="preserve"> - </w:t>
+        <w:t xml:space="preserve">P004 - Messagerie TEXTE re&#231;u du SAE</w:t>
+        <w:t xml:space="preserve"> (MAJOR)</w:t>
+        <w:t xml:space="preserve"> - </w:t>
+        <w:t xml:space="preserve">P013 - Transmettre des messages commerciaux ou d'exploitation aux BIV</w:t>
+        <w:t xml:space="preserve"> (MAJOR)</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">1</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">2</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">3</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">4</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">5</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">6</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Tests Fonctionnels &gt; Serveur &gt; 3 Administration serveur</w:t>
+        <w:t xml:space="preserve">Fiche 13 - Gestion de la reprise</w:t>
+        <w:t xml:space="preserve">Cr&#233;&#233;</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">le </w:t>
+        <w:t>&#160;:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">31 juil. 2015 16:36</w:t>
+        <w:t xml:space="preserve"> (</w:t>
+        <w:t xml:space="preserve">par </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">christine.salotti</w:t>
+        <w:t>)</w:t>
+        <w:t xml:space="preserve">Modifi&#233;</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">le </w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">14 ao&#251;t 2015 17:05</w:t>
+        <w:t xml:space="preserve"> (par </w:t>
+        <w:t xml:space="preserve"> christine.salotti</w:t>
+        <w:t xml:space="preserve">)</w:t>
+        <w:t xml:space="preserve">ID</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">534</w:t>
+        <w:t xml:space="preserve">Nature</w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Non d&#233;finie</w:t>
+        <w:t xml:space="preserve">Type</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Non d&#233;fini</w:t>
+        <w:t xml:space="preserve">Statut</w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Approuv&#233;</w:t>
+        <w:t xml:space="preserve">Importance</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Haute</w:t>
+        <w:t xml:space="preserve">Jalons</w:t>
+        <w:t xml:space="preserve">:</w:t>
+        <w:t xml:space="preserve">Description</w:t>
+        <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">Pr&#233;-requis</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve">Exigences couvertes</w:t>
+        <w:t xml:space="preserve"> : </w:t>
+        <w:t xml:space="preserve">Roissy P&#244;le</w:t>
+        <w:t xml:space="preserve"> - </w:t>
+        <w:t xml:space="preserve">P012 - Gestion des algorithmes de reprise en cas d'interruption</w:t>
+        <w:t xml:space="preserve"> (MINOR)</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">1</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">2</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">3</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Fiche 14 - Gestion du changement de journ&#233;e</w:t>
+        <w:t xml:space="preserve">Cr&#233;&#233;</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">le </w:t>
+        <w:t>&#160;:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">31 juil. 2015 16:36</w:t>
+        <w:t xml:space="preserve"> (</w:t>
+        <w:t xml:space="preserve">par </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">christine.salotti</w:t>
+        <w:t>)</w:t>
+        <w:t xml:space="preserve">Modifi&#233;</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">le </w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">14 ao&#251;t 2015 17:31</w:t>
+        <w:t xml:space="preserve"> (par </w:t>
+        <w:t xml:space="preserve"> christine.salotti</w:t>
+        <w:t xml:space="preserve">)</w:t>
+        <w:t xml:space="preserve">ID</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">533</w:t>
+        <w:t xml:space="preserve">Nature</w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Non d&#233;finie</w:t>
+        <w:t xml:space="preserve">Type</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Non d&#233;fini</w:t>
+        <w:t xml:space="preserve">Statut</w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Approuv&#233;</w:t>
+        <w:t xml:space="preserve">Importance</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Haute</w:t>
+        <w:t xml:space="preserve">Jalons</w:t>
+        <w:t xml:space="preserve">:</w:t>
+        <w:t xml:space="preserve">Description</w:t>
+        <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">Pr&#233;-requis</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve">Exigences couvertes</w:t>
+        <w:t xml:space="preserve"> : </w:t>
+        <w:t xml:space="preserve">Roissy P&#244;le</w:t>
+        <w:t xml:space="preserve"> - </w:t>
+        <w:t xml:space="preserve">P011 - Gestion du changement de journ&#233;e</w:t>
+        <w:t xml:space="preserve"> (MINOR)</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">1</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Fiche 15 - Administration du syst&#232;me</w:t>
+        <w:t xml:space="preserve">Cr&#233;&#233;</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">le </w:t>
+        <w:t>&#160;:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">31 juil. 2015 16:36</w:t>
+        <w:t xml:space="preserve"> (</w:t>
+        <w:t xml:space="preserve">par </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">christine.salotti</w:t>
+        <w:t>)</w:t>
+        <w:t xml:space="preserve">Modifi&#233;</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">le </w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">14 ao&#251;t 2015 17:11</w:t>
+        <w:t xml:space="preserve"> (par </w:t>
+        <w:t xml:space="preserve"> christine.salotti</w:t>
+        <w:t xml:space="preserve">)</w:t>
+        <w:t xml:space="preserve">ID</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">535</w:t>
+        <w:t xml:space="preserve">Nature</w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Non d&#233;finie</w:t>
+        <w:t xml:space="preserve">Type</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Non d&#233;fini</w:t>
+        <w:t xml:space="preserve">Statut</w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Approuv&#233;</w:t>
+        <w:t xml:space="preserve">Importance</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Haute</w:t>
+        <w:t xml:space="preserve">Jalons</w:t>
+        <w:t xml:space="preserve">:</w:t>
+        <w:t xml:space="preserve">Description</w:t>
+        <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">Pr&#233;-requis</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+        <w:t xml:space="preserve">Exigences couvertes</w:t>
+        <w:t xml:space="preserve"> : </w:t>
+        <w:t xml:space="preserve">Roissy P&#244;le</w:t>
+        <w:t xml:space="preserve"> - </w:t>
+        <w:t xml:space="preserve">P022 - Mise en place d'une machine virtuelle</w:t>
+        <w:t xml:space="preserve"> (MINOR)</w:t>
+        <w:t xml:space="preserve"> - </w:t>
+        <w:t xml:space="preserve">P027 - Backup de la base de donn&#233;es et suppression des backups</w:t>
+        <w:t xml:space="preserve"> (MINOR)</w:t>
+        <w:t xml:space="preserve"> - </w:t>
+        <w:t xml:space="preserve">P023 - Mise en place d'une purge des historiques des d&#233;fauts des panneaux et de la messagerie</w:t>
+        <w:t xml:space="preserve"> (MINOR)</w:t>
+        <w:t xml:space="preserve"> - </w:t>
+        <w:t xml:space="preserve">P028 - Archivage des logs</w:t>
+        <w:t xml:space="preserve"> (MINOR)</w:t>
+        <w:t xml:space="preserve"> - </w:t>
+        <w:t xml:space="preserve">P029 - Purge des dossiers de logs</w:t>
+        <w:t xml:space="preserve"> (MINOR)</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">1</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">2</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">3</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">4</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">5</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">6</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">7</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t xml:space="preserve">Etape</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">8</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+              <w:t xml:space="preserve">Action</w:t>
+              <w:t xml:space="preserve">R&#233;sultat attendu</w:t>
+              <w:t xml:space="preserve"> :</w:t>
+              <w:t xml:space="preserve">Pi&#232;ces jointes</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Non</w:t>
+              <w:t xml:space="preserve">Exigence</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve">Aucune</w:t>
+        <w:t>Index des cas de test</w:t>
+          <w:t>1.1.</w:t>
+          <w:t xml:space="preserve">[undefined] undefined</w:t>
+          <w:t>3</w:t>
