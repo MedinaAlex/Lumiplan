@@ -1,4 +1,3 @@
-#!/usr/bin/env python2.7
 # coding: utf8
 import changeExt as ext
 import XML as xml

@@ -1,9 +1,3 @@
-i = 0
-f = True
-for _ in range(10):
-    print(f)
-    if f:
-        f = False
-        continue
-    print(i)
-    i += 1
+with open("./../word/test.docx") as f:
+    for row in f:
+        print row

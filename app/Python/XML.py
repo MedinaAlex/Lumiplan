@@ -13,7 +13,7 @@ def xml(file, fileName):
     """
 
     #  Fermeture automatique à la fin du traitement.
-    with open("./../xml/"+fileName+"_document.xml", 'w') as f:
+    with open("./../xml/" + fileName + "_document.xml", 'w') as f:
         #  Créer l'arbre xml et l'écrit dans le fichier
         f.write(etree.tostring(etree.parse(open(file)), pretty_print=True))
 
@@ -21,7 +21,7 @@ def xml(file, fileName):
 
     os.remove(file)  # Supprime document.xml du dossier word
 
-    contenu("./../xml/"+fileName+"_document.xml", fileName)
+    contenu("./../xml/" + fileName + "_document.xml", fileName)
 
 
 def contenu(file, fileName):
@@ -31,7 +31,7 @@ def contenu(file, fileName):
     """
 
     fichier = open(file, 'r')
-    fichier2 = open("./../xml/"+fileName+"_contenu.xml", 'w')
+    fichier2 = open("./../xml/" + fileName + "_contenu.xml", 'w')
 
     with fichier:  # Fermeture automatique à la fin du traitement
         for row in fichier:  # Pour chaque ligne du fichier
