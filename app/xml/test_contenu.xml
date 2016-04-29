@@ -1,0 +1,531 @@
+                        <w:t>LUMIPLAN</w:t>
+                        <w:t>Impasse Augustin Fresnel</w:t>
+                        <w:t>44815 SAINT-HERBLAIN Cedex</w:t>
+                        <w:t>Ce document est la propri&#233;t&#233; de LUMIPLAN.</w:t>
+                        <w:t>Il doit &#234;tre consid&#233;r&#233; comme confidentiel et ne peut &#234;tre communiqu&#233; &#224; un tiers sans autorisation</w:t>
+                      <w:t xml:space="preserve">Cahier de test -290420161028</w:t>
+                      <w:t xml:space="preserve">G&#233;n&#233;r&#233; le 29/04/2016 &#224; 10:28</w:t>
+                <w:t>R&#233;visions</w:t>
+                      <w:t>Version</w:t>
+                      <w:t>Pages</w:t>
+                      <w:t>Chapitre</w:t>
+                      <w:t>Objet de la r&#233;vision</w:t>
+                      <w:t>1.0</w:t>
+                      <w:t>Toutes</w:t>
+                      <w:t>-</w:t>
+                      <w:t>Cr&#233;ation</w:t>
+                <w:t>Validation</w:t>
+                      <w:t>Version</w:t>
+                      <w:t>Date</w:t>
+                      <w:t>R&#233;daction</w:t>
+                      <w:t>V&#233;rification</w:t>
+                      <w:t>Approbation</w:t>
+                      <w:t>1.0</w:t>
+                      <w:t xml:space="preserve">29/04/2016</w:t>
+            <w:t xml:space="preserve">Sommaire</w:t>
+              <w:t>1.</w:t>
+              <w:t xml:space="preserve">undefined</w:t>
+              <w:t>3</w:t>
+              <w:t>1.1.</w:t>
+              <w:t>[</w:t>
+              <w:t xml:space="preserve">undefined</w:t>
+              <w:t>]</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">undefined</w:t>
+              <w:t>3</w:t>
+        <w:t>Introduction</w:t>
+        <w:t>Domaine</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t>d&#8217;application</w:t>
+        <w:t>Le projet vise &#224; installer un serveur Frontal IV. Les fonctionnalit&#233;s du syst&#232;me SIV attendues sont&#160;:</w:t>
+        <w:t>Gestion des donn&#233;es topologique et temps th&#233;orique Neptune,</w:t>
+        <w:t>Gestion des donn&#233;es temps-r&#233;el SIRI re&#231;ues de SIVIK,</w:t>
+        <w:t>Elaboration de l&#8217;information prochains passages aux arr&#234;ts,</w:t>
+        <w:t>Gestion de la messagerie texte de SIVIK,</w:t>
+        <w:t>Communication vers les BIV,</w:t>
+        <w:t>Supervision de l&#8217;&#233;tat des &#233;quipements,</w:t>
+        <w:t>Historisation des alarmes techniques.</w:t>
+        <w:t xml:space="preserve">Ce document est le proc&#232;s-verbal de recette </w:t>
+        <w:t xml:space="preserve">site </w:t>
+        <w:t xml:space="preserve">concernant le </w:t>
+        <w:t xml:space="preserve">Frontal IV </w:t>
+        <w:t>d&#233;ploy&#233;.</w:t>
+        <w:t>Responsabilit&#233;s</w:t>
+        <w:t>Ce</w:t>
+        <w:t xml:space="preserve"> document </w:t>
+        <w:t>est</w:t>
+        <w:t>&#160;</w:t>
+        <w:t>:</w:t>
+        <w:t xml:space="preserve">R&#233;dig&#233; par le </w:t>
+        <w:t>R</w:t>
+        <w:t xml:space="preserve">esponsable </w:t>
+        <w:t>Syst&#232;me&#160;</w:t>
+        <w:t>;</w:t>
+        <w:t xml:space="preserve">Valid&#233; par le </w:t>
+        <w:t>R</w:t>
+        <w:t>esponsable BE</w:t>
+        <w:t xml:space="preserve"> Logiciel&#160;</w:t>
+        <w:t>;</w:t>
+        <w:t xml:space="preserve">Approuv&#233; par le </w:t>
+        <w:t>Charg&#233; d&#8217;Affaires</w:t>
+        <w:t>.</w:t>
+        <w:t>La gestion de ce document (diffusion, mise &#224; jour et application) est sous la responsabilit&#233; du Responsable Sy</w:t>
+        <w:t>s</w:t>
+        <w:t>t&#232;me. En cas de besoin d&#8217;&#233;volution de ce document, la mise &#224; jour du document et sa validation suivent les m&#234;mes r&#232;gles que pour l&#8217;&#233;dition initiale. Les demandes d&#8217;&#233;volutions peuvent &#234;tre pr&#233;sent&#233;es directement par le Responsable Syst&#232;me ou &#234;tre demand&#233;es par le Responsable BE Logiciel.</w:t>
+        <w:t xml:space="preserve">Documents </w:t>
+        <w:t>applicables</w:t>
+              <w:t>N&#176;</w:t>
+              <w:t>R&#233;f&#233;rence</w:t>
+              <w:t>R&#233;vision</w:t>
+              <w:t>Titre</w:t>
+        <w:t xml:space="preserve">Documents de </w:t>
+        <w:t>r&#233;f&#233;rence</w:t>
+              <w:t>N&#176;</w:t>
+              <w:t>R&#233;f&#233;rence</w:t>
+              <w:t>Titre</w:t>
+              <w:t>[R1]</w:t>
+              <w:t>S_KEOLI36P1T_001916</w:t>
+              <w:t>_</w:t>
+              <w:t>40</w:t>
+              <w:t>Sp&#233;cification d'affichage</w:t>
+              <w:t>[R</w:t>
+              <w:t>2</w:t>
+              <w:t>]</w:t>
+              <w:t>S_KEOLI36P1T_001917</w:t>
+              <w:t>_</w:t>
+              <w:t>61</w:t>
+              <w:t>Sp&#233;cification fonctionnelles SIV</w:t>
+              <w:t>[R3]</w:t>
+              <w:t>S_KEOLI36P1T_001918</w:t>
+              <w:t>_</w:t>
+              <w:t>51</w:t>
+              <w:t>Sp&#233;cification d'interface</w:t>
+              <w:t xml:space="preserve"> SIVIK</w:t>
+        <w:t>Glossaire</w:t>
+              <w:t>Terme</w:t>
+              <w:t>D&#233;finition</w:t>
+              <w:t>BIV</w:t>
+              <w:t>B</w:t>
+              <w:t>orne d&#8217;</w:t>
+              <w:t>I</w:t>
+              <w:t xml:space="preserve">nformation </w:t>
+              <w:t>V</w:t>
+              <w:t>oyageur ou panneau d&#8217;information ou Afficheur</w:t>
+              <w:t>SAE</w:t>
+              <w:t>S</w:t>
+              <w:t>yst&#232;me d&#8217;</w:t>
+              <w:t>A</w:t>
+              <w:t>ide &#224; l&#8217;</w:t>
+              <w:t>E</w:t>
+              <w:t>xploitation</w:t>
+              <w:t>SIRI</w:t>
+              <w:t>S</w:t>
+              <w:t xml:space="preserve">ervice </w:t>
+              <w:t>I</w:t>
+              <w:t xml:space="preserve">nterface for </w:t>
+              <w:t>R</w:t>
+              <w:t>ealtime</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>I</w:t>
+              <w:t>nformation</w:t>
+              <w:t>Norme de diffusion des donn&#233;es temps r&#233;el dans le domaine du transport</w:t>
+              <w:t>SIV</w:t>
+              <w:t>S</w:t>
+              <w:t>yst&#232;me d&#8217;</w:t>
+              <w:t>I</w:t>
+              <w:t xml:space="preserve">nformation </w:t>
+              <w:t>V</w:t>
+              <w:t>oyageur</w:t>
+              <w:t>TR</w:t>
+              <w:t>T</w:t>
+              <w:t xml:space="preserve">emps </w:t>
+              <w:t>R</w:t>
+              <w:t>&#233;el</w:t>
+        <w:t xml:space="preserve">PROCES VERBAL DE RECETTE </w:t>
+        <w:t>USINE</w:t>
+        <w:t>Crit&#232;res</w:t>
+        <w:t xml:space="preserve"> de validation</w:t>
+        <w:t xml:space="preserve">Les points de contr&#244;le sont regroup&#233;s par cat&#233;gorie dans des tableaux d&#233;crits pages suivantes. </w:t>
+        <w:t xml:space="preserve">Un tableau </w:t>
+        <w:t>comporte</w:t>
+        <w:t xml:space="preserve"> 4 </w:t>
+        <w:t>colonnes</w:t>
+        <w:t xml:space="preserve"> :</w:t>
+        <w:t>D&#233;signation : D&#233;signation du mat&#233;riel et/ou des fonctions logicielles &#224; contr&#244;ler</w:t>
+        <w:t>CF (conforme) : Colonne &#224; cocher si la conformit&#233; est remplie</w:t>
+        <w:t>NC (non conforme) : Colonne &#224; cocher si la conformit&#233; n&#8217;est pas remplie</w:t>
+        <w:t>Commentaire : A ajouter le cas &#233;ch&#233;ant pour commenter la conformit&#233;/non-conformit&#233; du mat&#233;riel ou de la fonction. Le commentaire N/A indique que le contr&#244;le n&#8217;est pas applicable</w:t>
+        <w:t>Les anomalies sont classifi&#233;es. Il existe cinq niveaux de gravit&#233; :</w:t>
+        <w:t>Bloquant : bloque la r&#233;ception de la phase correspondante&#160;;</w:t>
+        <w:t>Majeur : ne bloque pas la r&#233;ception de la phase correspondante mais doit &#234;tre corrig&#233;e&#160;;</w:t>
+        <w:t>Mineur : anomalie mineure pouvant &#234;tre corrig&#233;e ult&#233;rieurement&#160;;</w:t>
+        <w:t>Evolution : demande d&#8217;&#233;volution par rapport &#224; la sp&#233;cification&#160;;</w:t>
+        <w:t>N/A : non applicable.</w:t>
+        <w:t xml:space="preserve">Fiche de </w:t>
+        <w:t>synth&#232;se</w:t>
+              <w:t>Date</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>:</w:t>
+              <w:t>Pr&#233;sents</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>:</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Pr&#233;nom</w:t>
+              <w:t xml:space="preserve"> / Nom                    </w:t>
+              <w:t>Soci&#233;t&#233;</w:t>
+              <w:t xml:space="preserve">R&#233;sum&#233; et bilan des contr&#244;les </w:t>
+              <w:t>effectu</w:t>
+              <w:t>&#201;</w:t>
+              <w:t>s</w:t>
+              <w:t>Anomalie</w:t>
+              <w:t>N&#176; Fiche</w:t>
+              <w:t>R&#233;sultat Ok</w:t>
+              <w:t>Mineure</w:t>
+              <w:t>Majeure</w:t>
+              <w:t>Bloquante</w:t>
+              <w:t>Evolution</w:t>
+              <w:t>N/A</w:t>
+              <w:t>1</w:t>
+              <w:t>2</w:t>
+              <w:t>3</w:t>
+              <w:t>4</w:t>
+              <w:t>5</w:t>
+              <w:t>6</w:t>
+              <w:t>7</w:t>
+              <w:t>8</w:t>
+              <w:t>9</w:t>
+              <w:t>10</w:t>
+              <w:t>1</w:t>
+              <w:t>1</w:t>
+              <w:t>12</w:t>
+              <w:t>13</w:t>
+              <w:t>Recette</w:t>
+              <w:t>Ok, Sans R&#233;serve</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>:</w:t>
+              <w:t>Ok, Avec R&#233;serve</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>:</w:t>
+              <w:t>Non Ok</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>:</w:t>
+              <w:t>Remarque</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>:</w:t>
+              <w:t>Pour le Fournisseur (nom &amp; signature)</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>:</w:t>
+              <w:t>Pour le Client (nom &amp; signature)</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>:</w:t>
+        <w:t>Moyens</w:t>
+        <w:t xml:space="preserve"> de tests</w:t>
+        <w:t xml:space="preserve">Roissy P&#244;le</w:t>
+        <w:t xml:space="preserve">Tests Fonctionnels &gt; Serveur &gt; 1 Mise en place IHM</w:t>
+        <w:t xml:space="preserve">Fiche 1 - Acc&#232;s &#224; l'IHM</w:t>
+              <w:t xml:space="preserve">ID</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">530</w:t>
+              <w:t xml:space="preserve">Importance</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">Moyenne</w:t>
+              <w:t xml:space="preserve">Description</w:t>
+              <w:t xml:space="preserve"> </w:t>
+        <w:t>a - Pas de test</w:t>
+              <w:t xml:space="preserve">1</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">2</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">3</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">4</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">5</w:t>
+              <w:t xml:space="preserve">:</w:t>
+        <w:t xml:space="preserve">Fiche 2 &#8211; Mise &#224; jour de l'heure courante</w:t>
+              <w:t xml:space="preserve">ID</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">527</w:t>
+              <w:t xml:space="preserve">Importance</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">Haute</w:t>
+              <w:t xml:space="preserve">Description</w:t>
+              <w:t xml:space="preserve"> </w:t>
+        <w:t>a - Pas de test</w:t>
+              <w:t xml:space="preserve">1</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">2</w:t>
+              <w:t xml:space="preserve">:</w:t>
+        <w:t xml:space="preserve">Fiche 3 - Contr&#244;le des bornes</w:t>
+              <w:t xml:space="preserve">ID</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">529</w:t>
+              <w:t xml:space="preserve">Importance</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">Moyenne</w:t>
+              <w:t xml:space="preserve">Description</w:t>
+              <w:t xml:space="preserve"> </w:t>
+        <w:t>a - Pas de test</w:t>
+              <w:t xml:space="preserve">1</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">2</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">3</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">4</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">5</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">6</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">7</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">8</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">9</w:t>
+              <w:t xml:space="preserve">:</w:t>
+        <w:t xml:space="preserve">Fiche 4 - Consultations des messages</w:t>
+              <w:t xml:space="preserve">ID</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">528</w:t>
+              <w:t xml:space="preserve">Importance</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">Moyenne</w:t>
+              <w:t xml:space="preserve">Description</w:t>
+              <w:t xml:space="preserve"> </w:t>
+        <w:t>a - Pas de test</w:t>
+              <w:t xml:space="preserve">1</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">2</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">3</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">4</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">5</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">6</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">7</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">8</w:t>
+              <w:t xml:space="preserve">:</w:t>
+        <w:t xml:space="preserve">Fiche 5 - D&#233;fauts des bornes</w:t>
+              <w:t xml:space="preserve">ID</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">526</w:t>
+              <w:t xml:space="preserve">Importance</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">Moyenne</w:t>
+              <w:t xml:space="preserve">Description</w:t>
+              <w:t xml:space="preserve"> </w:t>
+        <w:t>a - Pas de test</w:t>
+              <w:t xml:space="preserve">1</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">2</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">3</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">4</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">5</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">6</w:t>
+              <w:t xml:space="preserve">:</w:t>
+        <w:t xml:space="preserve">Tests Fonctionnels &gt; Serveur &gt; 2 Interface SAE</w:t>
+        <w:t xml:space="preserve">Fiche 06 - Import des donn&#233;es de quais</w:t>
+              <w:t xml:space="preserve">ID</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">540</w:t>
+              <w:t xml:space="preserve">Importance</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">Haute</w:t>
+              <w:t xml:space="preserve">Description</w:t>
+              <w:t xml:space="preserve"> </w:t>
+        <w:t>a - Pas de test</w:t>
+              <w:t xml:space="preserve">1</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">2</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">3</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">4</w:t>
+              <w:t xml:space="preserve">:</w:t>
+        <w:t xml:space="preserve">Fiche 07 - Import des donn&#233;es topologiques et th&#233;oriques</w:t>
+              <w:t xml:space="preserve">ID</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">539</w:t>
+              <w:t xml:space="preserve">Importance</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">Tr&#232;s haute</w:t>
+              <w:t xml:space="preserve">Description</w:t>
+              <w:t xml:space="preserve"> </w:t>
+        <w:t>a - Pas de test</w:t>
+              <w:t xml:space="preserve">1</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">2</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">3</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">4</w:t>
+              <w:t xml:space="preserve">:</w:t>
+        <w:t xml:space="preserve">Fiche 08 - Import des donn&#233;es topologiques</w:t>
+              <w:t xml:space="preserve">ID</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">542</w:t>
+              <w:t xml:space="preserve">Importance</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">Haute</w:t>
+              <w:t xml:space="preserve">Description</w:t>
+              <w:t xml:space="preserve"> </w:t>
+        <w:t>a - Pas de test</w:t>
+              <w:t xml:space="preserve">1</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">2</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">3</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">4</w:t>
+              <w:t xml:space="preserve">:</w:t>
+        <w:t xml:space="preserve">Fiche 09 - Gestion de requ&#234;te check status</w:t>
+              <w:t xml:space="preserve">ID</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">538</w:t>
+              <w:t xml:space="preserve">Importance</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">Faible</w:t>
+              <w:t xml:space="preserve">Description</w:t>
+              <w:t xml:space="preserve"> </w:t>
+        <w:t>a - Pas de test</w:t>
+              <w:t xml:space="preserve">1</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">2</w:t>
+              <w:t xml:space="preserve">:</w:t>
+        <w:t xml:space="preserve">Fiche 10 - Reception des temps d'attente</w:t>
+              <w:t xml:space="preserve">ID</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">536</w:t>
+              <w:t xml:space="preserve">Importance</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">Haute</w:t>
+              <w:t xml:space="preserve">Description</w:t>
+              <w:t xml:space="preserve"> </w:t>
+        <w:t>a - Pas de test</w:t>
+              <w:t xml:space="preserve">1</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">2</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">3</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">4</w:t>
+              <w:t xml:space="preserve">:</w:t>
+        <w:t xml:space="preserve">Fiche 11 - Message de service</w:t>
+              <w:t xml:space="preserve">ID</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">531</w:t>
+              <w:t xml:space="preserve">Importance</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">Moyenne</w:t>
+              <w:t xml:space="preserve">Description</w:t>
+              <w:t xml:space="preserve"> </w:t>
+        <w:t>a - Pas de test</w:t>
+              <w:t xml:space="preserve">1</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">2</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">3</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">4</w:t>
+              <w:t xml:space="preserve">:</w:t>
+        <w:t xml:space="preserve">Fiche 12 - Reception des messages g&#233;n&#233;raux et ligne</w:t>
+              <w:t xml:space="preserve">ID</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">537</w:t>
+              <w:t xml:space="preserve">Importance</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">Haute</w:t>
+              <w:t xml:space="preserve">Description</w:t>
+              <w:t xml:space="preserve"> </w:t>
+        <w:t>a - Pas de test</w:t>
+              <w:t xml:space="preserve">1</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">2</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">3</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">4</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">5</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">6</w:t>
+              <w:t xml:space="preserve">:</w:t>
+        <w:t xml:space="preserve">Tests Fonctionnels &gt; Serveur &gt; 3 Administration serveur</w:t>
+        <w:t xml:space="preserve">Fiche 13 - Gestion de la reprise</w:t>
+              <w:t xml:space="preserve">ID</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">534</w:t>
+              <w:t xml:space="preserve">Importance</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">Haute</w:t>
+              <w:t xml:space="preserve">Description</w:t>
+              <w:t xml:space="preserve"> </w:t>
+        <w:t>a - Pas de test</w:t>
+              <w:t xml:space="preserve">1</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">2</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">3</w:t>
+              <w:t xml:space="preserve">:</w:t>
+        <w:t xml:space="preserve">Fiche 14 - Gestion du changement de journ&#233;e</w:t>
+              <w:t xml:space="preserve">ID</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">533</w:t>
+              <w:t xml:space="preserve">Importance</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">Haute</w:t>
+              <w:t xml:space="preserve">Description</w:t>
+              <w:t xml:space="preserve"> </w:t>
+        <w:t>a - Pas de test</w:t>
+              <w:t xml:space="preserve">1</w:t>
+              <w:t xml:space="preserve">:</w:t>
+        <w:t xml:space="preserve">Fiche 15 - Administration du syst&#232;me</w:t>
+              <w:t xml:space="preserve">ID</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">535</w:t>
+              <w:t xml:space="preserve">Importance</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">Haute</w:t>
+              <w:t xml:space="preserve">Description</w:t>
+              <w:t xml:space="preserve"> </w:t>
+        <w:t>a - Pas de test</w:t>
+              <w:t xml:space="preserve">1</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">2</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">3</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">4</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">5</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">6</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">7</w:t>
+              <w:t xml:space="preserve">:</w:t>
+              <w:t xml:space="preserve">8</w:t>
+              <w:t xml:space="preserve">:</w:t>

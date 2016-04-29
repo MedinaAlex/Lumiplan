@@ -41,3 +41,45 @@ def contenu(file, fileName):
 
     fichier2.close()  # Fermeture du fichier
     print('regex done')
+    removeSpace(file, fileName)
+
+
+def removeSpace(file, fileName):
+    buff = ""
+    inP = False
+    inT = False
+    fichier = open("./../xml/" + fileName + "_documentWithoutSpace.xml", 'w')
+
+    with open(file) as f:
+        for row in f:
+            line = False
+            if re.search("<w:tbl>", row):
+                inT = True
+            elif re.search("</w:tbl>", row):
+                inT = False
+
+            if(re.search("<w:p( .*|)>", row) and not
+               re.search("<w:p( .*|)/>", row)):
+                inP = True
+            elif re.search("</w:p>", row):
+                buff = ""
+                if inP and not inT:
+                    inP = False
+                    continue
+                inP = False
+
+            if inP and not inT:
+                buff += row
+                if(re.search("</w:t>", row)or
+                   re.search('<w:br w:type="page"/>', row)):
+                    # On écrit ce que contient le buffer
+                    fichier.write(buff)
+                    buff = ""
+                    inP = False
+                    line = True
+
+            if inT or not inP and not line:
+                # On écrit les lignes jusqu'au prochain paragraphe
+                fichier.write(row)
+
+    fichier.close()

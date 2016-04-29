@@ -9577,6 +9577,14 @@
         </w:tc>
       </w:tr>
     </w:tbl>
+    <w:p w:rsidR="008F7EB7" w:rsidRDefault="008F7EB7" w:rsidP="008F7EB7">
+      <w:pPr>
+        <w:suppressLineNumbers/>
+        <w:rPr>
+          <w:lang w:val="fr-FR"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
     <w:tbl>
       <w:tblPr>
         <w:tblStyle w:val="Grilledutableau"/>
@@ -9693,6 +9701,14 @@
         </w:tc>
       </w:tr>
     </w:tbl>
+    <w:p w:rsidR="008F7EB7" w:rsidRDefault="008F7EB7" w:rsidP="008F7EB7">
+      <w:pPr>
+        <w:suppressLineNumbers/>
+        <w:rPr>
+          <w:lang w:val="fr-FR"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
     <w:tbl>
       <w:tblPr>
         <w:tblStyle w:val="Grilledutableau"/>
@@ -9815,6 +9831,14 @@
         </w:tc>
       </w:tr>
     </w:tbl>
+    <w:p w:rsidR="008F7EB7" w:rsidRDefault="008F7EB7" w:rsidP="008F7EB7">
+      <w:pPr>
+        <w:suppressLineNumbers/>
+        <w:rPr>
+          <w:lang w:val="fr-FR"/>
+        </w:rPr>
+      </w:pPr>
+    </w:p>
     <w:tbl>
       <w:tblPr>
         <w:tblStyle w:val="Grilledutableau"/>
