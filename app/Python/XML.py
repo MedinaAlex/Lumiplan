@@ -30,55 +30,195 @@ def contenu(file, fileName):
     les lignes correspondant au texte écrit dans le fichier word.
     """
 
-    fichier = open(file, 'r')
     fichier2 = open("./../xml/" + fileName + "_contenu.xml", 'w')
 
-    with fichier:  # Fermeture automatique à la fin du traitement
-        for row in fichier:  # Pour chaque ligne du fichier
+    with open(file) as f:  # Fermeture automatique à la fin du traitement
+        for row in f:  # Pour chaque ligne du fichier
             #  Si c'est une ligne contenant du texte écrit dans le fichier word
             if re.search('((\w+|).*)</w:t>', row):
                 fichier2.write(row)
 
     fichier2.close()  # Fermeture du fichier
     print('regex done')
-    removeSpace(file, fileName)
+    test(file, fileName)
 
 
-def removeSpace(file, fileName):
-    buff = ""
-    inP = False
-    inT = False
+def all(file, fileName):
+    buff = ''
+    preRow = ''
+    inP = False  # Variable pour savoir si l'on est dans un paragraphe
+
     fichier = open("./../xml/" + fileName + "_documentWithoutSpace.xml", 'w')
 
     with open(file) as f:
         for row in f:
             line = False
-            if re.search("<w:tbl>", row):
-                inT = True
-            elif re.search("</w:tbl>", row):
-                inT = False
+            preRow = row
 
             if(re.search("<w:p( .*|)>", row) and not
                re.search("<w:p( .*|)/>", row)):
                 inP = True
-            elif re.search("</w:p>", row):
-                buff = ""
-                if inP and not inT:
+            elif '</w:p>' in row:
+                buff = ''
+                if inP:
                     inP = False
                     continue
-                inP = False
 
-            if inP and not inT:
+            if inP:
+                if '<w:r>' in preRow and '<w:rPr>' not in row:
+                    buff += preRow
+                    buff += preRow[:-6] + '\t<w:rPr>\n'
+                    buff += preRow[:-6] + '\t\t<w:rFonts w:cs="Arial"/>\n'
+                    buff += preRow[:-6] + '\t\t<w:sz w:val="20"/>\n'
+                    buff += preRow[:-6] + '\t</w:rPr>\n'
+                    continue
+
                 buff += row
-                if(re.search("</w:t>", row)or
-                   re.search('<w:br w:type="page"/>', row)):
+
+                if(
+                    any(str in row for str in('</w:t>',
+                                              '<w:br w:type="page"/>',
+                                              'Sommaire', 'DosSiteWeb',)
+                        )  # and
+                    # '> </w:t>' not in row
+                ):
                     # On écrit ce que contient le buffer
                     fichier.write(buff)
-                    buff = ""
+                    buff = ''
                     inP = False
                     line = True
 
-            if inT or not inP and not line:
+            if not inP and not line:
+                # On écrit les lignes jusqu'au prochain paragraphe
+                fichier.write(row)
+
+    fichier.close()
+
+
+def changeSize(file, fileName):
+    preRow = ''
+    buff = ''
+    inP = False  # Variable pour savoir si l'on est dans un paragraphe
+
+    fichier = open("./../xml/" + fileName + "_documentWithoutSpace.xml", 'w')
+
+    with open(file) as f:
+        for row in f:
+
+            if(re.search("<w:p( .*|)>", row) and not
+               re.search("<w:p( .*|)/>", row)):
+                inP = True
+
+            elif '</w:p>' in row:
+                fichier.write(buff)
+                buff = ''
+                if inP:
+                    inP = False
+                    continue
+
+            if inP:
+                if '<w:r>' in preRow and '<w:rPr>' not in row:
+                    buff += preRow
+                    buff += preRow[:-6] + '\t<w:rPr>\n'
+                    buff += preRow[:-6] + '\t\t<w:rFonts w:cs="Arial"/>\n'
+                    buff += preRow[:-6] + '\t\t<w:sz w:val="20"/>\n'
+                    buff += preRow[:-6] + '\t</w:rPr>\n'
+                    continue
+                buff += row
+
+            if not inP:
+                fichier.write(row)
+
+    fichier.close()
+
+
+def removeSpace(file, fileName):
+    buff = ''
+    inP = False  # Variable pour savoir si l'on est dans un paragraphe
+
+    fichier = open("./../xml/" + fileName + "_documentWithoutSpace.xml", 'w')
+
+    with open(file) as f:
+        for row in f:
+            line = False
+
+            if(re.search("<w:p( .*|)>", row) and not
+               re.search("<w:p( .*|)/>", row)):
+                inP = True
+            elif '</w:p>' in row:
+                buff = ''
+                if inP:
+                    inP = False
+                    continue
+
+            if inP:
+                buff += row
+
+                if(
+                    any(str in row for str in('</w:t>',
+                                              '<w:br w:type="page"/>',
+                                              'Sommaire', 'DosSiteWeb',)
+                        )
+                ):
+                    # On écrit ce que contient le buffer
+                    fichier.write(buff)
+                    buff = ''
+                    inP = False
+                    line = True
+
+            if not inP and not line:
+                # On écrit les lignes jusqu'au prochain paragraphe
+                fichier.write(row)
+
+    fichier.close()
+
+
+def test(file, fileName):
+    buff = ''
+    preRow = ''
+    inP = False  # Variable pour savoir si l'on est dans un paragraphe
+    other = False
+
+    fichier = open("./../xml/" + fileName + "_documentWithoutSpace.xml", 'w')
+
+    with open(file) as f:
+        for row in f:
+            preRow = row
+
+            if(re.search("<w:p( .*|)>", row) and not
+               re.search("<w:p( .*|)/>", row)):
+                inP = True
+            elif '</w:p>' in row:
+                inP = False
+                if other:
+                    fichier.write(buff + row)
+                    buff = ''
+                    other = False
+                    continue
+                buff = ''
+                continue
+
+            if inP:
+                if '<w:r>' in preRow and '<w:rPr>' not in row:
+                    buff += preRow
+                    buff += preRow[:-6] + '\t<w:rPr>\n'
+                    buff += preRow[:-6] + '\t\t<w:rFonts w:ascii="Arial" \
+w:hAnsi="Arial" w:cs="Arial"/>\n'
+                    buff += preRow[:-6] + '\t\t<w:sz w:val="20"/>\n'
+                    buff += preRow[:-6] + '\t</w:rPr>\n'
+                    continue
+
+                buff += row
+
+                if(
+                    any(str in row for str in('</w:t>',
+                                              '<w:br w:type="page"/>',
+                                              'Sommaire', 'DosSiteWeb',)
+                        )
+                ):
+                    other = True
+
+            if not inP:
                 # On écrit les lignes jusqu'au prochain paragraphe
                 fichier.write(row)
 

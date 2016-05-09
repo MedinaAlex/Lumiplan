@@ -3,10 +3,10 @@
 from shutil import copy
 
 
-def changeExt(file):
+def changeExt(file, ext, newExt, oldPath, newPath):
     """Change l'extension d'un fichier .docx pour du
     .zip en gardant le fichier original
     Le dossier de l'archive est 'zip'
     """
 
-    copy('./../word/'+file+'.docx', './../zip/'+file+'.zip')
+    copy(oldPath + file + '.' + ext, newPath + file + '.' + newExt)
