@@ -1,3 +1,13 @@
 # setup.py
 from distutils.core import setup
-setup(console=["runAll.py", "changeExt.py", "XML.py", "extractZIP.py"])
+import py2exe
+
+setup(
+	console=[{'script': 'runAll.py'}],
+	options={
+        'py2exe':
+        {
+            'includes': ['lxml.etree', 'lxml._elementpath', 'gzip'],
+        }
+    }
+)

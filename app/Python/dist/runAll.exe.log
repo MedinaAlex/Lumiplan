@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "runAll.py", line 32, in <module>
+  File "runAll.py", line 9, in run
+EOFError: EOF when reading a line
+Traceback (most recent call last):
+  File "runAll.py", line 32, in <module>
+  File "runAll.py", line 9, in run
+EOFError: EOF when reading a line
+Traceback (most recent call last):
+  File "runAll.py", line 32, in <module>
+  File "runAll.py", line 9, in run
+EOFError: EOF when reading a line

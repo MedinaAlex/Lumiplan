@@ -178,7 +178,7 @@ def test(file, fileName):
     preRow = ''
     inP = False  # Variable pour savoir si l'on est dans un paragraphe
     other = False
-
+    sdt = False
     fichier = open("./../xml/" + fileName + "_documentWithoutSpace.xml", 'w')
 
     with open(file) as f:
@@ -186,7 +186,7 @@ def test(file, fileName):
             preRow = row
 
             if(re.search("<w:p( .*|)>", row) and not
-               re.search("<w:p( .*|)/>", row)):
+               re.search("<w:p( .*|)/>", row)) and not sdt:
                 inP = True
             elif '</w:p>' in row:
                 inP = False
@@ -195,8 +195,14 @@ def test(file, fileName):
                     buff = ''
                     other = False
                     continue
+                if sdt:
+                    fichier.write(row)
                 buff = ''
                 continue
+            elif '<w:sdt>' in row:
+                sdt = True
+            elif '</w:sdt>' in row:
+                sdt = False
 
             if inP:
                 if '<w:r>' in preRow and '<w:rPr>' not in row:
@@ -213,7 +219,8 @@ w:hAnsi="Arial" w:cs="Arial"/>\n'
                 if(
                     any(str in row for str in('</w:t>',
                                               '<w:br w:type="page"/>',
-                                              'Sommaire', 'DosSiteWeb',)
+                                              'Sommaire', 'DosSiteWeb',
+                                              '<w:pict>')
                         )
                 ):
                     other = True

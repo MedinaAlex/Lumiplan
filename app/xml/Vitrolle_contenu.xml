@@ -1,0 +1,1180 @@
+                        <w:t>LUMIPLAN</w:t>
+                        <w:t>Impasse Augustin Fresnel</w:t>
+                        <w:t>44815 SAINT-HERBLAIN Cedex</w:t>
+                        <w:t>Ce document est la propri&#233;t&#233; de LUMIPLAN.</w:t>
+                        <w:t>Il doit &#234;tre consid&#233;r&#233; comme confidentiel et ne peut &#234;tre communiqu&#233; &#224; un tiers sans autorisation</w:t>
+                <w:t xml:space="preserve">Cahier de Recette </w:t>
+                <w:t>site</w:t>
+                <w:t xml:space="preserve">Lumiplan TRANSPORT &#8211; BE LOGICIEL </w:t>
+                <w:t>Cahier de recette</w:t>
+                <w:t>R&#233;visions</w:t>
+                      <w:t>Version</w:t>
+                      <w:t>Pages</w:t>
+                      <w:t>Chapitre</w:t>
+                      <w:t>Objet de la r&#233;vision</w:t>
+                      <w:t>1.0</w:t>
+                      <w:t>Toutes</w:t>
+                      <w:t>-</w:t>
+                      <w:t>Cr&#233;ation</w:t>
+                <w:t>Validation</w:t>
+                      <w:t>Version</w:t>
+                      <w:t>Date</w:t>
+                      <w:t>R&#233;daction</w:t>
+                      <w:t>V&#233;rification</w:t>
+                      <w:t>Approbation</w:t>
+                      <w:t>1.0</w:t>
+                      <w:t>10/05/2016</w:t>
+                      <w:t xml:space="preserve"> </w:t>
+                      <w:t xml:space="preserve"> </w:t>
+                      <w:t xml:space="preserve"> </w:t>
+                      <w:t xml:space="preserve"> </w:t>
+                      <w:t xml:space="preserve"> </w:t>
+                      <w:t xml:space="preserve"> </w:t>
+                      <w:t xml:space="preserve"> </w:t>
+                      <w:t xml:space="preserve"> </w:t>
+            <w:t>Sommaire</w:t>
+        <w:t>Introduction</w:t>
+        <w:t>Domaine d&#8217;application</w:t>
+        <w:t>Le projet vise &#224; installer un serveur Frontal IV. Les fonctionnalit&#233;s du syst&#232;me SIV attendues sont&#160;:</w:t>
+        <w:t>Gestion des donn&#233;es topologique et temps th&#233;orique Neptune,</w:t>
+        <w:t>Gestion des donn&#233;es temps-r&#233;el SIRI re&#231;ues de SIVIK,</w:t>
+        <w:t>Elaboration de l&#8217;information prochains passages aux arr&#234;ts,</w:t>
+        <w:t>Gestion de la messagerie texte de SIVIK,</w:t>
+        <w:t>Communication vers les BIV,</w:t>
+        <w:t>Supervision de l&#8217;&#233;tat des &#233;quipements,</w:t>
+        <w:t>Historisation des alarmes techniques.</w:t>
+        <w:t>Ce document est le proc&#232;s-verbal de recette site concernant le Frontal IV d&#233;ploy&#233;.</w:t>
+        <w:t>Responsabilit&#233;s</w:t>
+        <w:t>Ce document est&#160;:</w:t>
+        <w:t>R&#233;dig&#233; par le Responsable Syst&#232;me&#160;;</w:t>
+        <w:t>Valid&#233; par le Responsable BE Logiciel&#160;;</w:t>
+        <w:t>Approuv&#233; par le Charg&#233; d&#8217;Affaires.</w:t>
+        <w:t>La gestion de ce document (diffusion, mise &#224; jour et application) est sous la responsabilit&#233; du Respo</w:t>
+        <w:t>n</w:t>
+        <w:t>sable Syst&#232;me. En cas de besoin d&#8217;&#233;volution de ce document, la mise &#224; jour du document et sa validation suivent les m&#234;mes r&#232;gles que pour l&#8217;&#233;dition initiale. Les demandes d&#8217;&#233;volutions peuvent &#234;tre pr&#233;sent&#233;es directement par le Responsable Syst&#232;me ou &#234;tre demand&#233;es par le Responsable BE Logiciel.</w:t>
+        <w:t>Documents applicables</w:t>
+              <w:t>N&#176;</w:t>
+              <w:t>R&#233;f&#233;rence</w:t>
+              <w:t>R&#233;vision</w:t>
+              <w:t>Titre</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+        <w:t>Documents de r&#233;f&#233;rence</w:t>
+              <w:t>N&#176;</w:t>
+              <w:t>R&#233;f&#233;rence</w:t>
+              <w:t>Titre</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+        <w:t>Glossaire</w:t>
+              <w:t>Terme</w:t>
+              <w:t>D&#233;finition</w:t>
+              <w:t>BIV</w:t>
+              <w:t>B</w:t>
+              <w:t>orne d&#8217;</w:t>
+              <w:t>I</w:t>
+              <w:t xml:space="preserve">nformation </w:t>
+              <w:t>V</w:t>
+              <w:t>oyageur ou panneau d&#8217;information ou Afficheur</w:t>
+              <w:t>SAE</w:t>
+              <w:t>S</w:t>
+              <w:t>yst&#232;me d&#8217;</w:t>
+              <w:t>A</w:t>
+              <w:t>ide &#224; l&#8217;</w:t>
+              <w:t>E</w:t>
+              <w:t>xploitation</w:t>
+        <w:t xml:space="preserve">RECETTE </w:t>
+        <w:t>USINE</w:t>
+        <w:t>Crit&#232;re</w:t>
+        <w:t xml:space="preserve"> de validation</w:t>
+        <w:t>Les points de contr&#244;le sont regroup&#233;s par cat&#233;gorie dans des tableaux d&#233;crits pages suivantes. Un t</w:t>
+        <w:t>a</w:t>
+        <w:t>bleau comporte 4 colonnes :</w:t>
+        <w:t>D&#233;signation</w:t>
+        <w:t xml:space="preserve"> : D&#233;signation du mat&#233;riel et/ou des fonctions logicielles &#224; contr&#244;ler</w:t>
+        <w:t>CF (conforme)</w:t>
+        <w:t xml:space="preserve"> : Colonne &#224; cocher si la conformit&#233; est remplie</w:t>
+        <w:t>NC (non conforme)</w:t>
+        <w:t xml:space="preserve"> : Colonne &#224; cocher si la conformit&#233; n&#8217;est pas remplie</w:t>
+        <w:t xml:space="preserve">Commentaire </w:t>
+        <w:t xml:space="preserve">: A </w:t>
+        <w:t>a</w:t>
+        <w:t>jouter le cas &#233;ch&#233;ant pour commenter la conformit&#233;/non-conformit&#233; du mat&#233;riel ou de la fonction. Le commentaire N/A indique que le contr&#244;le n&#8217;est pas applicable</w:t>
+        <w:t>Les anomalies sont classifi&#233;es. Il existe cinq niveaux de gravit&#233; :</w:t>
+        <w:t>Bloquant : bloque la r&#233;ception de la phase correspondante&#160;;</w:t>
+        <w:t>Majeur : ne bloque pas la r&#233;ception de la phase correspondante mais doit &#234;tre corrig&#233;e&#160;;</w:t>
+        <w:t>Mineur : anomalie mineure pouvant &#234;tre corrig&#233;e ult&#233;rieurement&#160;;</w:t>
+        <w:t>Evolution : demande d&#8217;&#233;volution par rapport &#224; la sp&#233;cification&#160;;</w:t>
+        <w:t>N/A : non applicable.</w:t>
+        <w:t>Fiche de synth&#232;se</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">R&#233;sum&#233; et bilan des contr&#244;les </w:t>
+              <w:t>effectu</w:t>
+              <w:t>&#201;</w:t>
+              <w:t>s</w:t>
+              <w:t>N&#176; Fiche</w:t>
+              <w:t xml:space="preserve">R&#233;sultat </w:t>
+              <w:t>Conforme</w:t>
+              <w:t>R&#233;sultat</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">Non </w:t>
+              <w:t>Conforme</w:t>
+              <w:t>N/A</w:t>
+              <w:t xml:space="preserve">Non </w:t>
+              <w:t>execut&#233;</w:t>
+              <w:t>1</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>2</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>3</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>4</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>5</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>6</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>7</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>8</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>9</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>10</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>11</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>12</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>13</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>Recette</w:t>
+              <w:t>Accept&#233;e</w:t>
+              <w:t>, Sans R&#233;serve&#160;:</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Accept&#233;e</w:t>
+              <w:t>, Avec R&#233;serve&#160;:</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">Refus&#233;e </w:t>
+              <w:t>:</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>R</w:t>
+              <w:t>&#233;serves</w:t>
+              <w:t>&#160;:</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">Pour </w:t>
+              <w:t>LUMIPLAN</w:t>
+              <w:t xml:space="preserve"> (nom &amp; signature)&#160;:</w:t>
+              <w:t>Pour le Client (nom &amp; signature)&#160;:</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">  </w:t>
+        <w:t>Moyens de tests</w:t>
+        <w:t>D&#233;roulement des tests</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t>Affichage de pictogrammes</w:t>
+              <w:t>ID:</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>716</w:t>
+              <w:t xml:space="preserve">Importance: </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Moyenne</w:t>
+              <w:t>Description</w:t>
+              <w:t>Test permettant de contr&#244;ler l'affichage des pictogrammes demand&#233;s par le client</w:t>
+              <w:t>Pr&#233;-requis</w:t>
+              <w:t>BIV en fonction et sous tension, avec la derni&#232;re version du soft BIV install&#233;e.</w:t>
+              <w:t>Derni&#232;re version du simulateur SAE, install&#233;e et lanc&#233;e sur un PC.</w:t>
+              <w:t>Liaison radio op&#233;rationelle entre la BIV et le PC</w:t>
+              <w:t>Liaison ethernet en fonction entre le PC et la BIV.</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Conforme</w:t>
+              <w:t>Non conforme</w:t>
+              <w:t>N/A</w:t>
+              <w:t>Non ex&#233;cut&#233;</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Statut&#160;: </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t>a - Pas de test</w:t>
+        <w:t>s</w:t>
+        <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">    </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Action</w:t>
+              <w:t>R&#233;sultat</w:t>
+              <w:t xml:space="preserve"> attendu</w:t>
+              <w:t>1</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>Avec le simulateur de SAE envoyer une trame permettant d'afficher les pictogrammes demand&#233;s par le client</w:t>
+              <w:t>Contr&#244;ler que les pictogrammes d&#233;finis dans&#160;dans le document de sp&#233;cific</w:t>
+              <w:t>a</w:t>
+              <w:t>tion&#160;S_VITRO01P1T_001951_40_Sp&#233;cifications log</w:t>
+              <w:t>i</w:t>
+              <w:t xml:space="preserve">cielles BIV.pdf </w:t>
+              <w:t>( page</w:t>
+              <w:t xml:space="preserve"> 14),&#160;sont correctement affich&#233;s.</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t>Affichage des informations voyageurs</w:t>
+              <w:t>ID:</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>554</w:t>
+              <w:t xml:space="preserve">Importance: </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Tr&#232;s haute</w:t>
+              <w:t>Description</w:t>
+              <w:t xml:space="preserve">Test permettant de contr&#244;ler les informations </w:t>
+              <w:t>voyageurs</w:t>
+              <w:t xml:space="preserve"> qui sont affich&#233;s sur la borne</w:t>
+              <w:t>Pr&#233;-requis</w:t>
+              <w:t>BIV en fonction et sous tension, avec la derni&#232;re version du soft BIV install&#233;e.</w:t>
+              <w:t>Derni&#232;re version du simulateur SAE, install&#233;e et lanc&#233;e sur un PC.</w:t>
+              <w:t>Liaison radio op&#233;rationelle entre la BIV et le PC</w:t>
+              <w:t>Liaison ethernet en fonction entre le PC et la BIV.</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Conforme</w:t>
+              <w:t>Non conforme</w:t>
+              <w:t>N/A</w:t>
+              <w:t>Non ex&#233;cut&#233;</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Statut&#160;: </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t>a - Pas de test</w:t>
+        <w:t>s</w:t>
+        <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">    </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Action</w:t>
+              <w:t>R&#233;sultat</w:t>
+              <w:t xml:space="preserve"> attendu</w:t>
+              <w:t>1</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>Avec le simulateur de SAE, aff</w:t>
+              <w:t>i</w:t>
+              <w:t xml:space="preserve">cher des informations </w:t>
+              <w:t>voyageurs</w:t>
+              <w:t xml:space="preserve"> ne d&#233;passant pas 32 caract&#232;res au total</w:t>
+              <w:t>Les informations doivent s'afficher sur une seule ligne</w:t>
+              <w:t>2</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>Avec le simulateur de SAE, aff</w:t>
+              <w:t>i</w:t>
+              <w:t xml:space="preserve">cher des informations </w:t>
+              <w:t>voyageurs</w:t>
+              <w:t xml:space="preserve"> d&#233;passant&#160;32 caract&#232;res au total</w:t>
+              <w:t>Les 32 premiers caract&#232;res doivent s'afficher sur la 1ere ligne.&#160;</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>Les caract&#232;res venant apr&#232;s le 32eme, doivent s'afficher sur une deuxi&#232;me ligne</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t>Annonce sonore</w:t>
+              <w:t>ID:</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>569</w:t>
+              <w:t xml:space="preserve">Importance: </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Faible</w:t>
+              <w:t>Description</w:t>
+              <w:t>Test permettant de contr&#244;ler le syst&#232;me d'annonce sonore</w:t>
+              <w:t>Pr&#233;-requis</w:t>
+              <w:t>BIV en fonction et sous tension, avec la derni&#232;re version du soft BIV install&#233;e.</w:t>
+              <w:t>Derni&#232;re version du simulateur SAE, install&#233;e et lanc&#233;e sur un PC.</w:t>
+              <w:t>Liaison radio op&#233;rationelle entre la BIV et le PC</w:t>
+              <w:t>Liaison ethernet en fonction entre le PC et la BIV.</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Conforme</w:t>
+              <w:t>Non conforme</w:t>
+              <w:t>N/A</w:t>
+              <w:t>Non ex&#233;cut&#233;</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Statut&#160;: </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t>a - Pas de test</w:t>
+        <w:t>s</w:t>
+        <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">    </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Action</w:t>
+              <w:t>R&#233;sultat</w:t>
+              <w:t xml:space="preserve"> attendu</w:t>
+              <w:t>1</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>Avec le simulateur de SAE, e</w:t>
+              <w:t>n</w:t>
+              <w:t>voyer des temps d'attente pour deux lignes</w:t>
+              <w:t>V&#233;rifier que les num&#233;ros de lignes, la destination et les temps&#160;d'attente s'affichent correctement sur la borne.</w:t>
+              <w:t>2</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>A l'aide de la t&#233;l&#233;commande PMR, d&#233;clencher la demande d'annonce</w:t>
+              <w:t>Controler</w:t>
+              <w:t xml:space="preserve"> que la BIV, annonce distinctement :</w:t>
+              <w:t xml:space="preserve">les </w:t>
+              <w:t>lignes</w:t>
+              <w:t>les destinations</w:t>
+              <w:t xml:space="preserve">les temps </w:t>
+              <w:t>d'attente</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t>Autotest</w:t>
+              <w:t>ID:</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>561</w:t>
+              <w:t xml:space="preserve">Importance: </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Haute</w:t>
+              <w:t>Description</w:t>
+              <w:t>Test permettant de contr&#244;ler le fonctionnement de la fonction Autotest</w:t>
+              <w:t>Pr&#233;-requis</w:t>
+              <w:t>BIV en fonction et sous tension, avec la derni&#232;re version du soft BIV install&#233;e.</w:t>
+              <w:t>Derni&#232;re version du simulateur SAE, install&#233;e et lanc&#233;e sur un PC.</w:t>
+              <w:t>Liaison radio op&#233;rationelle entre la BIV et le PC</w:t>
+              <w:t>Liaison ethernet en fonction entre le PC et la BIV.</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Conforme</w:t>
+              <w:t>Non conforme</w:t>
+              <w:t>N/A</w:t>
+              <w:t>Non ex&#233;cut&#233;</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Statut&#160;: </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t>a - Pas de test</w:t>
+        <w:t>s</w:t>
+        <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">    </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Action</w:t>
+              <w:t>R&#233;sultat</w:t>
+              <w:t xml:space="preserve"> attendu</w:t>
+              <w:t>1</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>Mettre la BIV sous tension, ou e</w:t>
+              <w:t>n</w:t>
+              <w:t>voyer une commande de RESET de la borne</w:t>
+              <w:t>V&#233;rifier que sur la borne que les informations suivantes s'affichent :</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>- Test des afficheurs LED :</w:t>
+              <w:t>Tous</w:t>
+              <w:t xml:space="preserve"> les </w:t>
+              <w:t>afficheurs</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>allum&#233;s</w:t>
+              <w:t>;</w:t>
+              <w:t>Tous</w:t>
+              <w:t xml:space="preserve"> les </w:t>
+              <w:t>afficheurs</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>&#233;teints</w:t>
+              <w:t>;</w:t>
+              <w:t>Affichage par colonne verticale de pixels</w:t>
+              <w:t>Affichage par colonne verticale de pixels d&#233;cal&#233;s d'un pixel</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>- Affichage des param&#232;tres et de l'&#233;tat de la BIV</w:t>
+              <w:t>Nom et version du logiciel principal</w:t>
+              <w:t>Num&#233;ro de borne, nombre de faces de la borne et &#233;tat de l'affichage</w:t>
+              <w:t>Version du FPGA</w:t>
+              <w:t>Nom et version des logiciels lanceur et dll</w:t>
+              <w:t>Nom et version des logiciels FTP et Text To Speech</w:t>
+              <w:t>Etat</w:t>
+              <w:t xml:space="preserve"> de la </w:t>
+              <w:t>sauvegarde</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>m&#233;moire</w:t>
+              <w:t>Affichage de la date et l'heure avec &#233;tat de l'horloge</w:t>
+              <w:t>Affichage de l'&#233;tat de l'&#233;clairage et de la temp&#233;rature i</w:t>
+              <w:t>n</w:t>
+              <w:t>terne de la BIV</w:t>
+              <w:t>Date et heure de la derni&#232;re transmission correcte et l'&#233;tat de la derni&#232;re connexion</w:t>
+              <w:t>2</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>Appuyer sur le bouton BP3 de la borne</w:t>
+              <w:t>V&#233;rifier que sur la borne que les informations suivantes s'affichent 5 fois de suite:</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>- Test des afficheurs LED :</w:t>
+              <w:t>Tous</w:t>
+              <w:t xml:space="preserve"> les </w:t>
+              <w:t>afficheurs</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>allum&#233;s</w:t>
+              <w:t>;</w:t>
+              <w:t>Tous</w:t>
+              <w:t xml:space="preserve"> les </w:t>
+              <w:t>afficheurs</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>&#233;teints</w:t>
+              <w:t>;</w:t>
+              <w:t>Affichage par colonne verticale de pixels</w:t>
+              <w:t>Affichage par colonne verticale de pixels d&#233;cal&#233;s d'un pixel</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>- Affichage des param&#232;tres et de l'&#233;tat de la BIV</w:t>
+              <w:t>Nom et version du logiciel principal</w:t>
+              <w:t>Num&#233;ro de borne, nombre de faces de la borne et &#233;tat de l'affichage</w:t>
+              <w:t>Version du FPGA</w:t>
+              <w:t>Nom et version des logiciels lanceur et dll</w:t>
+              <w:t>Nom et version des logiciels FTP et Text To Speech</w:t>
+              <w:t>Etat</w:t>
+              <w:t xml:space="preserve"> de la </w:t>
+              <w:t>sauvegarde</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>m&#233;moire</w:t>
+              <w:t>Affichage de la date et l'heure avec &#233;tat de l'horloge</w:t>
+              <w:t>Affichage de l'&#233;tat de l'&#233;clairage et de la temp&#233;rature i</w:t>
+              <w:t>n</w:t>
+              <w:t>terne de la BIV</w:t>
+              <w:t>Date et heure de la derni&#232;re transmission correcte et l'&#233;tat de la derni&#232;re connexion</w:t>
+              <w:t>3</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>Appuyer sur le bouton BP2&#160;de la borne</w:t>
+              <w:t>V&#233;rifier que sur la borne que les informations suivantes s'affichent, et sont r&#233;p&#233;t&#233;es ind&#233;finiment:</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>- Test des afficheurs LED :</w:t>
+              <w:t>Tous</w:t>
+              <w:t xml:space="preserve"> les </w:t>
+              <w:t>afficheurs</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>allum&#233;s</w:t>
+              <w:t>;</w:t>
+              <w:t>Tous</w:t>
+              <w:t xml:space="preserve"> les </w:t>
+              <w:t>afficheurs</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>&#233;teints</w:t>
+              <w:t>;</w:t>
+              <w:t>Affichage par colonne verticale de pixels</w:t>
+              <w:t>Affichage par colonne verticale de pixels d&#233;cal&#233;s d'un pixel</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>- Affichage des param&#232;tres et de l'&#233;tat de la BIV</w:t>
+              <w:t>Nom et version du logiciel principal</w:t>
+              <w:t>Num&#233;ro de borne, nombre de faces de la borne et &#233;tat de l'affichage</w:t>
+              <w:t>Version du FPGA</w:t>
+              <w:t>Nom et version des logiciels lanceur et dll</w:t>
+              <w:t>Nom et version des logiciels FTP et Text To Speech</w:t>
+              <w:t>Etat</w:t>
+              <w:t xml:space="preserve"> de la </w:t>
+              <w:t>sauvegarde</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>m&#233;moire</w:t>
+              <w:t>Affichage de la date et l'heure avec &#233;tat de l'horloge</w:t>
+              <w:t>Affichage de l'&#233;tat de l'&#233;clairage et de la temp&#233;rature i</w:t>
+              <w:t>n</w:t>
+              <w:t>terne de la BIV</w:t>
+              <w:t>Date et heure de la derni&#232;re transmission correcte et l'&#233;tat de la derni&#232;re connexion</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t>Caract&#233;ristiques d'affichage</w:t>
+              <w:t>ID:</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>553</w:t>
+              <w:t xml:space="preserve">Importance: </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Tr&#232;s haute</w:t>
+              <w:t>Description</w:t>
+              <w:t>Test permettant de contr&#244;ler les caract&#233;ristiques d'affichage&#160;des bornes :</w:t>
+              <w:t>- Marcus LED P4.75 160*32</w:t>
+              <w:t>- Marcus LED P4.75 160*64</w:t>
+              <w:t>Pr&#233;-requis</w:t>
+              <w:t>BIV en fonction et sous tension, avec la derni&#232;re version du soft BIV install&#233;e.</w:t>
+              <w:t>Derni&#232;re version du simulateur SAE, install&#233;e et lanc&#233;e sur un PC.</w:t>
+              <w:t>Liaison radio op&#233;rationelle entre la BIV et le PC</w:t>
+              <w:t>Liaison ethernet en fonction entre le PC et la BIV.</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Conforme</w:t>
+              <w:t>Non conforme</w:t>
+              <w:t>N/A</w:t>
+              <w:t>Non ex&#233;cut&#233;</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Statut&#160;: </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t>a - Pas de test</w:t>
+        <w:t>s</w:t>
+        <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">    </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Action</w:t>
+              <w:t>R&#233;sultat</w:t>
+              <w:t xml:space="preserve"> attendu</w:t>
+              <w:t>1</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>Avec le simulateur de SAE, e</w:t>
+              <w:t>n</w:t>
+              <w:t>voyer trois temps&#160;d'attente pour 3&#160;lignes diff&#233;rentes,&#160;sur une borne type MARCUS LED P4.75 160*32</w:t>
+              <w:t xml:space="preserve">Contr&#244;ler que l'affichage </w:t>
+              <w:t>des informations voyageurs</w:t>
+              <w:t xml:space="preserve"> pour chacune des 3 lignes,&#160;se fait :</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>- Sur 3 lignes distinctes, affich&#233;es les unes en dessous des autres</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>2</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>Avec le simulateur de SAE, e</w:t>
+              <w:t>n</w:t>
+              <w:t xml:space="preserve">voyer trois temps&#160;d'attente pour 4 lignes diff&#233;rentes,&#160;sur une borne </w:t>
+              <w:t>type MARCUS LED P4.75 160*32</w:t>
+              <w:t xml:space="preserve">Contr&#244;ler que l'affichage </w:t>
+              <w:t>des informations voyageurs</w:t>
+              <w:t xml:space="preserve"> pour chacune des 4 lignes,&#160;se fait :</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>- Sur 4 lignes distinctes, affich&#233;es les unes en dessous des autres</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>3</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>Avec le simulateur de SAE, e</w:t>
+              <w:t>n</w:t>
+              <w:t>voyer trois temps&#160;d'attente pour cinq lignes diff&#233;rentes,&#160;sur une borne type MARCUS LED P4.75 160*32</w:t>
+              <w:t xml:space="preserve">Contr&#244;ler que l'affichage </w:t>
+              <w:t>des informations voyageurs</w:t>
+              <w:t xml:space="preserve"> se fait sur deux &#233;crans&#160;:</w:t>
+              <w:t>&#160;</w:t>
+              <w:t xml:space="preserve">-&#160;Les 4 premi&#232;res lignes sont affich&#233;es sur le 1er </w:t>
+              <w:t>ecran</w:t>
+              <w:t xml:space="preserve">- La&#160;5 </w:t>
+              <w:t>eme</w:t>
+              <w:t xml:space="preserve"> ligne est affich&#233;e sur le 2eme &#233;cran</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>4</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>Avec le simulateur de SAE, e</w:t>
+              <w:t>n</w:t>
+              <w:t>voyer trois temps&#160;d'attente pour 6&#160;lignes diff&#233;rentes,&#160;sur une borne type MARCUS LED P4.75 160*64</w:t>
+              <w:t xml:space="preserve">Contr&#244;ler que l'affichage </w:t>
+              <w:t>des informations voyageurs</w:t>
+              <w:t xml:space="preserve"> pour chacune des 6 lignes,&#160;se fait :</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>- Sur 6&#160;lignes distinctes, affich&#233;es les unes en dessous des autres</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>5</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>Avec le simulateur de SAE, e</w:t>
+              <w:t>n</w:t>
+              <w:t>voyer trois temps&#160;d'attente pour 7 lignes diff&#233;rentes,&#160;sur une borne type MARCUS LED P4.75 160*64</w:t>
+              <w:t xml:space="preserve">Contr&#244;ler que l'affichage </w:t>
+              <w:t>des informations voyageurs</w:t>
+              <w:t xml:space="preserve"> pour chacune des 7 lignes,&#160;se fait :</w:t>
+              <w:t>&#160;</w:t>
+              <w:t xml:space="preserve">- Sur 7&#160;lignes distinctes, affich&#233;es les unes en dessous des </w:t>
+              <w:t>autres</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>6</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>Avec le simulateur de SAE, e</w:t>
+              <w:t>n</w:t>
+              <w:t>voyer trois temps&#160;d'attente pour 8 lignes diff&#233;rentes,&#160;sur une borne type MARCUS LED P4.75 160*64</w:t>
+              <w:t xml:space="preserve">Contr&#244;ler que l'affichage </w:t>
+              <w:t>des informations voyageurs</w:t>
+              <w:t xml:space="preserve"> se fait sur deux &#233;crans&#160;:</w:t>
+              <w:t>&#160;</w:t>
+              <w:t xml:space="preserve">-&#160;Les 7&#160;premi&#232;res lignes sont affich&#233;es sur le 1er </w:t>
+              <w:t>ecran</w:t>
+              <w:t>- La 8&#160;</w:t>
+              <w:t>eme</w:t>
+              <w:t xml:space="preserve"> ligne est affich&#233;e sur le 2eme &#233;cran</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>&#160;</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t>Date et heure</w:t>
+              <w:t>ID:</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>557</w:t>
+              <w:t xml:space="preserve">Importance: </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Haute</w:t>
+              <w:t>Description</w:t>
+              <w:t>Test permettant de contr&#244;ler que la date et l'heure s'affiche correctement</w:t>
+              <w:t>Pr&#233;-requis</w:t>
+              <w:t>BIV en fonction et sous tension, avec la derni&#232;re version du soft BIV install&#233;e.</w:t>
+              <w:t>Derni&#232;re version du simulateur SAE, install&#233;e et lanc&#233;e sur un PC.</w:t>
+              <w:t>Liaison radio op&#233;rationelle entre la BIV et le PC</w:t>
+              <w:t>Liaison ethernet en fonction entre le PC et la BIV.</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Conforme</w:t>
+              <w:t>Non conforme</w:t>
+              <w:t>N/A</w:t>
+              <w:t>Non ex&#233;cut&#233;</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Statut&#160;: </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t>a - Pas de test</w:t>
+        <w:t>s</w:t>
+        <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">    </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Action</w:t>
+              <w:t>R&#233;sultat</w:t>
+              <w:t xml:space="preserve"> attendu</w:t>
+              <w:t>1</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>Avec le simulateur de SAE, e</w:t>
+              <w:t>n</w:t>
+              <w:t>voyer une trame de date + heure seule</w:t>
+              <w:t>V&#233;rifier que la date et l'heure s'affiche sur la borne.</w:t>
+              <w:t>&#160;</w:t>
+              <w:t xml:space="preserve">V&#233;rifier que </w:t>
+              <w:t>la</w:t>
+              <w:t xml:space="preserve"> format de la date est bien du type JJ/MM/AAAA&#160;</w:t>
+              <w:t>&#160;</w:t>
+              <w:t xml:space="preserve">V&#233;rifier que le format de l'heure est bien </w:t>
+              <w:t>HH:mm</w:t>
+              <w:t>2</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>Avec le simulateur de SAE, e</w:t>
+              <w:t>n</w:t>
+              <w:t>voyer une trame de date + heure seule. Avec un message d'inform</w:t>
+              <w:t>a</w:t>
+              <w:t>tion g&#233;n&#233;rale</w:t>
+              <w:t>V&#233;rifier que la date et l'heure s'affiche en alternance avec le message d'information, sur la borne.</w:t>
+              <w:t>&#160;</w:t>
+              <w:t xml:space="preserve">V&#233;rifier que </w:t>
+              <w:t>la</w:t>
+              <w:t xml:space="preserve"> format de la date est bien du type JJ/MM/AAAA&#160;</w:t>
+              <w:t>&#160;</w:t>
+              <w:t xml:space="preserve">V&#233;rifier que le format de l'heure est bien </w:t>
+              <w:t>HH:mm</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t>Eclairage du totem</w:t>
+              <w:t>ID:</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>1467</w:t>
+              <w:t xml:space="preserve">Importance: </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Faible</w:t>
+              <w:t>Description</w:t>
+              <w:t xml:space="preserve">Test permettant de </w:t>
+              <w:t>cont&#244;ler</w:t>
+              <w:t xml:space="preserve"> l'asservissement de l'&#233;clairage du totem. en fonction de la luminosit&#233; ambiante.</w:t>
+              <w:t>Pr&#233;-requis</w:t>
+              <w:t>BIV en fonction et sous tension, avec la derni&#232;re version du soft BIV install&#233;e.</w:t>
+              <w:t>Derni&#232;re version du simulateur SAE, install&#233;e et lanc&#233;e sur un PC.</w:t>
+              <w:t>Liaison radio op&#233;rationelle entre la BIV et le PC</w:t>
+              <w:t>Liaison ethernet en fonction entre le PC et la BIV.</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Conforme</w:t>
+              <w:t>Non conforme</w:t>
+              <w:t>N/A</w:t>
+              <w:t>Non ex&#233;cut&#233;</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Statut&#160;: </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t>a - Pas de test</w:t>
+        <w:t>s</w:t>
+        <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">    </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Action</w:t>
+              <w:t>R&#233;sultat</w:t>
+              <w:t xml:space="preserve"> attendu</w:t>
+              <w:t>1</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>Cacher&#160;la cellule de d&#233;tection de luminosit&#233;</w:t>
+              <w:t>V&#233;rifier que le totem de la borne s'allume</w:t>
+              <w:t>2</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>Eclairer&#160;la cellule de d&#233;tection de luminosit&#233;</w:t>
+              <w:t>V&#233;rifier que le totem de la borne s'&#233;teint</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t>Messages d'information</w:t>
+              <w:t>ID:</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>556</w:t>
+              <w:t xml:space="preserve">Importance: </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Haute</w:t>
+              <w:t>Description</w:t>
+              <w:t>Test permettant de contr&#244;ler l'affichage des messages d'information</w:t>
+              <w:t>Pr&#233;-requis</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Conforme</w:t>
+              <w:t>Non conforme</w:t>
+              <w:t>N/A</w:t>
+              <w:t>Non ex&#233;cut&#233;</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Statut&#160;: </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t>a - Pas de test</w:t>
+        <w:t>s</w:t>
+        <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">    </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Action</w:t>
+              <w:t>R&#233;sultat</w:t>
+              <w:t xml:space="preserve"> attendu</w:t>
+              <w:t>1</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>Avec le simulateur de SAE, e</w:t>
+              <w:t>n</w:t>
+              <w:t>voyer un message d'information g&#233;n&#233;rale de 100 caract&#232;res max</w:t>
+              <w:t>i</w:t>
+              <w:t>mum</w:t>
+              <w:t>Verifier</w:t>
+              <w:t xml:space="preserve"> sur la borne que le message d'information g&#233;n&#233;rale s'affiche en d&#233;filant.</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>V&#233;rifier sur la borne, que le message d'information s'alterne avec l'heure et la date.</w:t>
+              <w:t>2</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>Avec le simulateur de SAE, e</w:t>
+              <w:t>n</w:t>
+              <w:t>voyer un message d'information g&#233;n&#233;rale de plus de 100 caract&#232;res</w:t>
+              <w:t>Verifier</w:t>
+              <w:t xml:space="preserve"> sur la borne que le message d'information g&#233;n&#233;rale n'affiche que les 100 premiers caract&#232;res.&#160;</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>V&#233;rifier sur la borne, que le message d'information s'alterne avec l'heure et la date.</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t>Messages de service</w:t>
+              <w:t>ID:</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>555</w:t>
+              <w:t xml:space="preserve">Importance: </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Haute</w:t>
+              <w:t>Description</w:t>
+              <w:t>Test permettant de contr&#244;ler l'affichage des messages de service&#160;affect&#233; &#224; certaines lignes.</w:t>
+              <w:t>Pr&#233;-requis</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Conforme</w:t>
+              <w:t>Non conforme</w:t>
+              <w:t>N/A</w:t>
+              <w:t>Non ex&#233;cut&#233;</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Statut&#160;: </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t>a - Pas de test</w:t>
+        <w:t>s</w:t>
+        <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">    </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Action</w:t>
+              <w:t>R&#233;sultat</w:t>
+              <w:t xml:space="preserve"> attendu</w:t>
+              <w:t>1</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>Configurer le panneau en 160 *32&#160;</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>Avec le simulateur de SAE, e</w:t>
+              <w:t>n</w:t>
+              <w:t xml:space="preserve">voyer une trame qui contient : </w:t>
+              <w:t>un&#160;num&#233;ro de ligne + une destin</w:t>
+              <w:t>a</w:t>
+              <w:t>tion de 22 caract&#232;res maximum + &#160;un temps d'attente. Avec un me</w:t>
+              <w:t>s</w:t>
+              <w:t>sage de service.</w:t>
+              <w:t>V&#233;rifier que le num&#233;ro de ligne, la destination et le temps d'attente sont affich&#233;s correctement.</w:t>
+              <w:t>&#160;</w:t>
+              <w:t xml:space="preserve">V&#233;rifier sur la borne que la destination de la ligne s'alterne </w:t>
+              <w:t>avec le message de service</w:t>
+              <w:t>2</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>Configurer le panneau en 160 *32&#160;</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>Avec le simulateur de SAE, e</w:t>
+              <w:t>n</w:t>
+              <w:t>voyer une trame qui contient un num&#233;ro de ligne + une destination de 23&#160;caract&#232;res &#160;+ un temps d'a</w:t>
+              <w:t>t</w:t>
+              <w:t>tente. Avec un message de service.</w:t>
+              <w:t>V&#233;rifier que le num&#233;ro de ligne, la destination sont affich&#233;s correctement.</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>V&#233;rifier sur la borne que la destination de la ligne s'alterne avec le message de service, mais que les temps&#160;d'attente sont d&#233;cal&#233;s sur la ligne d'affichage</w:t>
+              <w:t>3</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>Configurer le panneau en 160 *32&#160;</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>Avec le simulateur de SAE, e</w:t>
+              <w:t>n</w:t>
+              <w:t xml:space="preserve">voyer une trame qui contient : un num&#233;ro de ligne + une destination de 29 caract&#232;res </w:t>
+              <w:t>maximum ,</w:t>
+              <w:t xml:space="preserve"> sans temps d'attente. Avec un message de service.</w:t>
+              <w:t>V&#233;rifier que le num&#233;ro de ligne, la destination sont affich&#233;s correctement.</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>V&#233;rifier sur la borne que la destination de la ligne s'alterne avec le message de service</w:t>
+              <w:t>4</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>Configurer le panneau en 160 *32&#160;</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>Avec le simulateur de SAE, e</w:t>
+              <w:t>n</w:t>
+              <w:t>voyer une trame qui contient : un&#160;num&#233;ro de ligne + une destin</w:t>
+              <w:t>a</w:t>
+              <w:t xml:space="preserve">tion de 30 </w:t>
+              <w:t>caract&#232;res ,</w:t>
+              <w:t xml:space="preserve"> sans temps d'attente. Avec un message de se</w:t>
+              <w:t>r</w:t>
+              <w:t>vice.</w:t>
+              <w:t>V&#233;rifier que le num&#233;ro de ligne, la destination sont affich&#233;s correctement.</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>V&#233;rifier sur la borne que la destination de la ligne s'alterne avec le message de service, mais que la ligne est d&#233;cal&#233;e &#224; l'affichage</w:t>
+              <w:t>5</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>Configurer le panneau en 160 *64&#160;</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>Avec le simulateur de SAE, e</w:t>
+              <w:t>n</w:t>
+              <w:t>voyer une trame qui contient : un&#160;num&#233;ro de ligne + une destin</w:t>
+              <w:t>a</w:t>
+              <w:t>tion de 22 caract&#232;res maximum + &#160;un temps d'attente. Avec un me</w:t>
+              <w:t>s</w:t>
+              <w:t>sage de service.</w:t>
+              <w:t>V&#233;rifier que le num&#233;ro de ligne, la destination et le temps d'attente sont affich&#233;s correctement.</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>V&#233;rifier sur la borne que la destination de la ligne s'alterne avec le message de service</w:t>
+              <w:t>6</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>Configurer le panneau en 160 *64</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>Avec le simulateur de SAE, e</w:t>
+              <w:t>n</w:t>
+              <w:t>voyer une trame qui contient un num&#233;ro de ligne + une destination de 23&#160;caract&#232;res &#160;+ un temps d'a</w:t>
+              <w:t>t</w:t>
+              <w:t>tente. Avec un message de service.</w:t>
+              <w:t>V&#233;rifier que le num&#233;ro de ligne, la destination sont affich&#233;s correctement.</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>V&#233;rifier sur la borne que la destination de la ligne s'alterne avec le message de service, mais que les temps&#160;d'attente sont d&#233;cal&#233;s sur la ligne d'affichage</w:t>
+              <w:t>7</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>Configurer le panneau en 160 *64</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>Avec le simulateur de SAE, e</w:t>
+              <w:t>n</w:t>
+              <w:t xml:space="preserve">voyer une trame qui contient : un num&#233;ro de ligne + une destination de 29 caract&#232;res </w:t>
+              <w:t>maximum ,</w:t>
+              <w:t xml:space="preserve"> sans temps d'attente. Avec un message de service.</w:t>
+              <w:t>V&#233;rifier que le num&#233;ro de ligne, la destination sont affich&#233;s correctement.</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>V&#233;rifier sur la borne que la destination de la ligne s'alterne avec le message de service</w:t>
+              <w:t>8</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>Configurer le panneau en 160 *64&#160;</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>Avec le simulateur de SAE, e</w:t>
+              <w:t>n</w:t>
+              <w:t>voyer une trame qui contient : un&#160;num&#233;ro de ligne + une destin</w:t>
+              <w:t>a</w:t>
+              <w:t xml:space="preserve">tion de 30 </w:t>
+              <w:t>caract&#232;res ,</w:t>
+              <w:t xml:space="preserve"> sans temps </w:t>
+              <w:t>d'attente. Avec un message de se</w:t>
+              <w:t>r</w:t>
+              <w:t>vice.</w:t>
+              <w:t>V&#233;rifier que le num&#233;ro de ligne, la destination sont affich&#233;s correctement.</w:t>
+              <w:t>&#160;</w:t>
+              <w:t xml:space="preserve">V&#233;rifier sur la borne que la destination de la ligne s'alterne avec le message de service, mais que la ligne est d&#233;cal&#233;e &#224; </w:t>
+              <w:t>l'affichage</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t>Messages par d&#233;faut</w:t>
+              <w:t>ID:</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>558</w:t>
+              <w:t xml:space="preserve">Importance: </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Moyenne</w:t>
+              <w:t>Description</w:t>
+              <w:t>Test permettant de contr&#244;ler l'affichage des messages par d&#233;fauts</w:t>
+              <w:t>Pr&#233;-requis</w:t>
+              <w:t>BIV en fonction et sous tension, avec la derni&#232;re version du soft BIV install&#233;e.</w:t>
+              <w:t>Derni&#232;re version du simulateur SAE, install&#233;e et lanc&#233;e sur un PC.</w:t>
+              <w:t>Liaison radio op&#233;rationelle entre la BIV et le PC</w:t>
+              <w:t>Liaison ethernet en fonction entre le PC et la BIV.</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Conforme</w:t>
+              <w:t>Non conforme</w:t>
+              <w:t>N/A</w:t>
+              <w:t>Non ex&#233;cut&#233;</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Statut&#160;: </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t>a - Pas de test</w:t>
+        <w:t>s</w:t>
+        <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">    </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Action</w:t>
+              <w:t>R&#233;sultat</w:t>
+              <w:t xml:space="preserve"> attendu</w:t>
+              <w:t>1</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>Avec le simulateur de SAE, e</w:t>
+              <w:t>n</w:t>
+              <w:t>voyer un message permettant d'aff</w:t>
+              <w:t>i</w:t>
+              <w:t>cher en alternance "SERVICE TERMINE" et " REPRISE DU RESEAU A 05H30"</w:t>
+              <w:t>V&#233;rifier sur la borne l'affichage des messages "SERVICE TERMINE" et " REPRISE DU RESEAU", en alternance et en gros caract&#232;res</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t>D&#233;faut d'affichage</w:t>
+              <w:t>ID:</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>566</w:t>
+              <w:t xml:space="preserve">Importance: </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Haute</w:t>
+              <w:t>Description</w:t>
+              <w:t>Test permettant de contr&#244;ler la remont&#233;e du d&#233;faut d'affichage</w:t>
+              <w:t>Pr&#233;-requis</w:t>
+              <w:t>BIV en fonction et sous tension, avec la derni&#232;re version du soft BIV install&#233;e.</w:t>
+              <w:t>Derni&#232;re version du simulateur SAE, install&#233;e et lanc&#233;e sur un PC.</w:t>
+              <w:t>Liaison radio op&#233;rationelle entre la BIV et le PC</w:t>
+              <w:t>Liaison ethernet en fonction entre le PC et la BIV.</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Conforme</w:t>
+              <w:t>Non conforme</w:t>
+              <w:t>N/A</w:t>
+              <w:t>Non ex&#233;cut&#233;</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Statut&#160;: </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t>a - Pas de test</w:t>
+        <w:t>s</w:t>
+        <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">    </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Action</w:t>
+              <w:t>R&#233;sultat</w:t>
+              <w:t xml:space="preserve"> attendu</w:t>
+              <w:t>1</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t xml:space="preserve">D&#233;brancher un des </w:t>
+              <w:t>verre</w:t>
+              <w:t xml:space="preserve"> de la borne</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>Mettre sous tension la borne</w:t>
+              <w:t>Contr&#244;ler que dans le prochain message d'&#233;tat de la borne, que le d&#233;faut d'affichage&#160;soit bien remont&#233;</w:t>
+              <w:t>2</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>D&#233;brancher la borne</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>Rebrancher le verre&#160;</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>Allumer la borne</w:t>
+              <w:t>Contr&#244;ler que dans le prochain message d'&#233;tat de la borne, que le d&#233;faut d'affichage&#160;soit bien acquitt&#233;</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t>D&#233;faut d'annonce sonore</w:t>
+              <w:t>ID:</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>564</w:t>
+              <w:t xml:space="preserve">Importance: </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Haute</w:t>
+              <w:t>Description</w:t>
+              <w:t>Test permettant de contr&#244;ler la remont&#233;e du d&#233;faut d'annonce sonore</w:t>
+              <w:t>Pr&#233;-requis</w:t>
+              <w:t>BIV en fonction et sous tension, avec la derni&#232;re version du soft BIV install&#233;e.</w:t>
+              <w:t>Derni&#232;re version du simulateur SAE, install&#233;e et lanc&#233;e sur un PC.</w:t>
+              <w:t>Liaison radio op&#233;rationelle entre la BIV et le PC</w:t>
+              <w:t>Liaison ethernet en fonction entre le PC et la BIV.</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Conforme</w:t>
+              <w:t>Non conforme</w:t>
+              <w:t>N/A</w:t>
+              <w:t>Non ex&#233;cut&#233;</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Statut&#160;: </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t>a - Pas de test</w:t>
+        <w:t>s</w:t>
+        <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">    </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Action</w:t>
+              <w:t>R&#233;sultat</w:t>
+              <w:t xml:space="preserve"> attendu</w:t>
+              <w:t>1</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>D&#233;brancher le micro de la borne,</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>Mettre la borne sous tension</w:t>
+              <w:t>Contr&#244;ler&#160;dans le prochain message d'&#233;tat de la borne, que le d&#233;faut d'annonce soit bien remont&#233;</w:t>
+              <w:t>2</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>Eteindre la borne</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>Rebrancher le micro de la borne</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>Allumer la borne</w:t>
+              <w:t>Contr&#244;ler&#160;dans le prochain message d'&#233;tat de la borne, que le d&#233;faut d'annonce sonore&#160;soit bien acquitt&#233;</w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t>D&#233;faut d'&#233;clairage</w:t>
+              <w:t>ID:</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>567</w:t>
+              <w:t xml:space="preserve">Importance: </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Haute</w:t>
+              <w:t>Description</w:t>
+              <w:t>Test permettant de contr&#244;ler la remont&#233;e du d&#233;faut d'&#233;clairage</w:t>
+              <w:t>Pr&#233;-requis</w:t>
+              <w:t>BIV en fonction et sous tension, avec la derni&#232;re version du soft BIV install&#233;e.</w:t>
+              <w:t>Derni&#232;re version du simulateur SAE, install&#233;e et lanc&#233;e sur un PC.</w:t>
+              <w:t>Liaison radio op&#233;rationelle entre la BIV et le PC</w:t>
+              <w:t>Liaison ethernet en fonction entre le PC et la BIV.</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Conforme</w:t>
+              <w:t>Non conforme</w:t>
+              <w:t>N/A</w:t>
+              <w:t>Non ex&#233;cut&#233;</w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t xml:space="preserve">Statut&#160;: </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve">  </w:t>
+        <w:t xml:space="preserve"> </w:t>
+        <w:t>a - Pas de test</w:t>
+        <w:t>s</w:t>
+        <w:t xml:space="preserve"> </w:t>
+              <w:t xml:space="preserve">    </w:t>
+              <w:t xml:space="preserve"> </w:t>
+              <w:t>Action</w:t>
+              <w:t>R&#233;sultat</w:t>
+              <w:t xml:space="preserve"> attendu</w:t>
+              <w:t>1</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>D&#233;brancher la borne</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>Connecter un verre avec un d&#233;faut d'&#233;clairage</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>Allumer la borne</w:t>
+              <w:t>Contr&#244;ler que dans le prochain message d'&#233;tat de la borne, que le d&#233;faut d'&#233;clairage soit bien remont&#233;</w:t>
+              <w:t>2</w:t>
+              <w:t xml:space="preserve">  </w:t>
+              <w:t>D&#233;brancher la borne</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>Remplacer le verre d&#233;fectueux par un verre sans d&#233;faut</w:t>
+              <w:t>&#160;</w:t>
+              <w:t>Allumer la borne</w:t>
+              <w:t>Contr&#244;ler que dans le prochain message d'&#233;tat de la borne, que le d&#233;faut d'&#233;clairage soit bien acquitt&#233;</w:t>
+        <w:t xml:space="preserve"> </w:t>

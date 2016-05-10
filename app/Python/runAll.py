@@ -4,8 +4,19 @@ import XML as xml
 import extractZIP as zip
 import html_rewrite as html
 
+import os
+
 
 def run():
+    dossiers = os.listdir('./../')
+
+    if 'zip' not in dossiers:
+        os.mkdir('./../zip')
+    if 'xml' not in dossiers:
+        os.mkdir('./../xml')
+    if 'wordOut' not in dossiers:
+        os.mkdir('./../wordOut')
+
     file = raw_input("entrer le nom du fichier word sans l'extension :\n>>>")
     ext.changeExt(file, 'docx', 'zip', './../word/', './../zip/')
     print('zipage done')
