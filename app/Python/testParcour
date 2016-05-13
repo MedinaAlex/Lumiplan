@@ -1,0 +1,12 @@
+import os
+bool = True
+i = 0
+
+files = os.listdir('./../tmp/word')
+while(bool):
+	fichier = str(i) + '.html'
+	if fichier in files:
+		print fichier
+	else:
+		bool = False
+	i += 1

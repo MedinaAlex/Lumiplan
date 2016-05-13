@@ -21,7 +21,8 @@ def xml(file, fileName):
 
     os.remove(file)  # Supprime document.xml du dossier word
 
-    contenu("./../xml/" + fileName + "_document.xml", fileName)
+    # contenu("./../xml/" + fileName + "_document.xml", fileName)
+    test("./../xml/" + fileName + "_document.xml", fileName)
 
 
 def contenu(file, fileName):
@@ -39,8 +40,7 @@ def contenu(file, fileName):
                 fichier2.write(row)
 
     fichier2.close()  # Fermeture du fichier
-    print('regex done')
-    test(file, fileName)
+    print('contenu done')
 
 
 def all(file, fileName):
@@ -184,6 +184,9 @@ def test(file, fileName):
     with open(file) as f:
         for row in f:
             preRow = row
+
+            # if 'TOC \\o "1-2" \\h \\z \\u' in row:
+               #  continue
 
             if(re.search("<w:p( .*|)>", row) and not
                re.search("<w:p( .*|)/>", row)) and not sdt:

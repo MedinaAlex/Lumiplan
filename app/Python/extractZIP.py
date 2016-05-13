@@ -17,7 +17,7 @@ def extract(zip):
 
 def extractAll(zip):
     """
-    Extrait tout les fichiers d'une archive word dans un répertoire temporaire.
+    Extrait tous les fichiers d'une archive word dans un répertoire temporaire.
     """
 
     myzip = ZipFile(zip, 'a')
@@ -25,14 +25,23 @@ def extractAll(zip):
 
 
 def addFile(fileName):
+    """Ajoute les fichiers du dossier tmp dans l'archive
+    dont le nom est passé en paramètre
+    """
+
     copy('./../zip/' + fileName + '.zip', './../wordOut/' + fileName + '.zip')
     myzip = ZipFile('./../wordOut/' + fileName + '.zip', 'a')
+
     for file in os.listdir('./../tmp/word/'):
         myzip.write('./../tmp/word/' + file, 'word\\' + file, ZIP_DEFLATED)
+
     myzip.close()
 
 
 def remove_from_zip(zip, *fileNames):
+    """Supprime de l'archive passée en paramètre les fichiers en paramètre.
+    """
+
     tempdir = tempfile.mkdtemp()
     try:
         tempname = os.path.join(tempdir, 'new.zip')
@@ -48,12 +57,19 @@ def remove_from_zip(zip, *fileNames):
 
 
 def zipdir(path, fileName):
+    """ Ajoute tous les fichiers du dossier path dans une nouvelle archive
+    dont le nom est passé en paramètre
+    """
+
+    # Renommage du fichier xml
     move("./../xml/" + fileName + "_documentWithoutSpace.xml",
          './../tmp/word/document.xml')
+
     myzip = ZipFile('./../wordOut/' + fileName + '.zip', 'w')
+
     for root, dirs, files in os.walk(path):
         for file in files:
             myzip.write(os.path.join(root, file), root[9:] + '\\' + file,
                         ZIP_DEFLATED)
+
     myzip.close()
-    rmtree('./../tmp')
