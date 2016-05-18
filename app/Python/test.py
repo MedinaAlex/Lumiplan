@@ -1,20 +1,21 @@
 import re
-buff = ""
-texte = False
-with open("file") as f:
+i = 0
+t = 0
+inP = False
+inT = False
+tt = False
+with open("./../tmp/word/document.xml") as f:
     for row in f:
-        if re.search("<w:p(.*)", row):
-            inP = True
-        elif re.search("</w:p>"):
-            inP = False
+        if tt and re.search("<w:p(| .*)>", row) and not re.search("<w:p(| .*)/>", row):
+            i += 1
 
-        if inP:
-            buff += row
-            if re.search("</w:t>", row):
-                # On écrit ce que contient le buffer
-                inP = False
-                texte = True
+        if '<w:tbl>'in row:
+            t += 1
+            inT = True
+        elif '</w:tbl>':
+            inT = False
 
-        if not inP and texte:
-            # On écrit les lignes jusqu'au prochain paragraphe
-            True
+        if '<w:t>' in row:
+            tt = True
+print(i)
+print(t)

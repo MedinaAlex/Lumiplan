@@ -49,7 +49,7 @@ def run():
 
     rmtree('./../zip')
     rmtree('./../xml')
-    rmtree('./../tmp')
+    # rmtree('./../tmp')
     os.remove('./../wordOut/' + file + '.zip')
 
 if __name__ == '__main__':
