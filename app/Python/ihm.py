@@ -8,6 +8,7 @@ On crée une fenêtre simple qui souhaite la bienvenue à l'utilisateur.
 from Tkinter import *
 from tkFileDialog import *
 import openDOCFile as op
+import createTree as tr
 
 
 def Ouvrir():
@@ -25,6 +26,7 @@ def Ouvrir():
         f.write('Introduction : \n\t' + texte + '\n')
     f.close()
     dico, tagList = op.run()
+    tr.run(dico, tagList)
 
 # Main window
 Mafenetre = Tk()
@@ -49,14 +51,56 @@ Label1.pack()
 introduction = IntVar()
 introduction.set(1)  # ON
 Checkbutton(Mafenetre, text="Introduction", variable=introduction).pack(
-    side=LEFT, padx=10, pady=10)
+    padx=10, pady=10)
+
+Description = IntVar()
+Description.set(1)  # ON
+Checkbutton(Mafenetre, text="Description", variable=Description)
 
 exigence = IntVar()
 Checkbutton(Mafenetre, text="Exigence", variable=exigence).pack(
-    side=LEFT, padx=10, pady=10)
+    padx=10, pady=10)
+
+CreeLe = IntVar()
+Checkbutton(Mafenetre, text="Cree le", variable=CreeLe).pack(
+    padx=10, pady=10)
+
+ModifieLe = IntVar()
+Checkbutton(Mafenetre, text="Modifie le", variable=ModifieLe).pack(
+    padx=10, pady=10)
+
+ID = IntVar()
+Checkbutton(Mafenetre, text="ID", variable=ID).pack(
+    padx=10, pady=10)
+
+Nature = IntVar()
+Checkbutton(Mafenetre, text="Nature", variable=Nature).pack(
+    padx=10, pady=10)
+
+Type = IntVar()
+Checkbutton(Mafenetre, text="Type", variable=Type).pack(
+    padx=10, pady=10)
+
+Statut = IntVar()
+Checkbutton(Mafenetre, text="Statut", variable=Statut).pack(
+    padx=10, pady=10)
+
+Importance = IntVar()
+Checkbutton(Mafenetre, text="Importance", variable=Importance).pack(
+    padx=10, pady=10)
+
+Jalons = IntVar()
+Checkbutton(Mafenetre, text="Jalons", variable=Jalons).pack(
+    padx=10, pady=10)
+
+
+PreRequis = IntVar()
+Checkbutton(Mafenetre, text="Pré-requis", variable=PreRequis).pack(
+    padx=10, pady=10)
+
 
 Button(Mafenetre, text='Go', command=Ouvrir).pack(
-    side=LEFT, padx=5, pady=5)
+    padx=5, pady=5)
 
 
 # Utilisation d'un dictionnaire pour conserver une référence
