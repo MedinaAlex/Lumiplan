@@ -14,10 +14,9 @@ def run():
     reload(sys)
     sys.setdefaultencoding("utf-8")
     f = open('./../paraT.txt', 'w')
+    t = open('./../tableT.txt', 'w')
     a = open('./../arbre.txt', 'a')
     dd = open('./../dico.txt', 'w')
-
-    nbFiche = 0
 
     fileName = './../word/forTest.docx'
     document = Document(fileName)  # Document word
@@ -25,7 +24,7 @@ def run():
     para = document.paragraphs  # Liste des paragraphes du document
     tables = document.tables  # Liste des tables du document
     tt = iter(tables)  # itérateur des tables
-    d2 = {} # Liste de Dictionnaire ordonné contenant le contenu
+    d2 = {}  # Liste de Dictionnaire ordonné contenant le contenu
     d = d2['Fiches'] = []
     dico = OrderedDict()
     pre, tag = [''] * 2
@@ -34,6 +33,12 @@ def run():
                'Importance', 'Jalons',
                'ID:', 'Type:', 'Importance:', 'Jalons:')
     replacements = {'é': 'e', 'è': 'e', ':': ''}
+
+    for elem in tables:
+        for row in range(len(elem.rows)):
+            for col in range(len(elem.columns)):
+                t.write(elem.cell(row, col).text)
+    t.close()
 
     for elem in para:
         # print('-' * 60)
@@ -79,6 +84,9 @@ def run():
 
             dico['Description'] = para[para.index(elem) + i].text
 
+            cell = tt.next()
+            dico['Pre-requis'] = cell.row_cells(0)[0].text
+
         if 'Etape' in elem.text:
             etape = OrderedDict()
             num = ' '.join(elem.text.split()[1])
@@ -116,16 +124,6 @@ def run():
         pre = elem.text
     d.append(dico)
 
-    for fiche in d:
-        for key1, value1 in fiche.iteritems():
-            if isinstance(value1, basestring):
-                fiche[key1] = value1.replace('\n', '<w:br/>')
-            elif isinstance(value1, list):
-                for elem in value1:
-                    for key2, value2 in elem.iteritems():
-                        elem[key2] = value2.replace('\n', '<w:br/>')
-                pass
-
     json.dump(d2, dd)
     dd.close()
 
@@ -143,6 +141,25 @@ def run():
             active.append(j)
 
     # crt.run(fileName, d)
+    for index, fiche in enumerate(d2['Fiches']):
+        if fiche['Titre'] not in active:
+            del d2['Fiches'][index]
+            continue
+        for key1, value1 in fiche.iteritems():
+            if isinstance(value1, basestring) and 'Titre' not in key1:
+                if fiche['Titre'] + '.' + key1 not in active:
+                    del d2['Fiches'][index][key1]
+            elif isinstance(value1, list):
+                i = -1
+                for index2, elem in enumerate(value1):
+                    i += 1
+                    print(index, i, elem['Numero'])
+                    if fiche['Titre'] + '.Etape' + elem['Numero'] not in active:
+                        print(i)
+                        del d2['Fiches'][index][key1][i]
+                        i -= 1
+
+
     test.run(d2)
     return (d2, tagList, active)
 

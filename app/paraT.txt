@@ -1,6 +1,3 @@
-Pré-requis :
-	
-
 Action
 	Accéder à l’interface web :
  
@@ -54,9 +51,6 @@ Le rafraichissement n’est pas disponible sur l’onglet Analyse.
 
 Pièces jointes :
 	Non
-Pré-requis :
-	
-
 Action
 	Vérifier la date et l’heure sur les bornes
 Vérifier l’heure sur le serveur SIV avec la commande « date » 
@@ -80,9 +74,6 @@ Le NTP mis en place est le suivant : X.X.X.X
 
 Pièces jointes :
 	Non
-Pré-requis :
-	
-
 Action
 	Visualiser les panneaux :
  
@@ -208,9 +199,6 @@ Après confirmation : le panneau redémarre avec les paramètres que lui renvoie
 
 Pièces jointes :
 	Non
-Pré-requis :
-	
-
 Action
 	Visualiser les messages :
 Aller dans l’onglet Message, Section Bibliothèque.
@@ -307,9 +295,6 @@ Résultat attendu :
 
 Pièces jointes :
 	Non
-Pré-requis :
-	
-
 Action
 	Visualisation générale :
 Cliquer sur l'onglet d'analyse
@@ -375,9 +360,6 @@ En ordonnées la durée cumulée sur l’unité de temps correspondant  à la p
 
 Pièces jointes :
 	Non
-Pré-requis :
-	
-
 Action
 	Présence du fichier de quai :
 Supprimer du répertoire /u/siv/quai le fichier quai.csv.
@@ -430,9 +412,6 @@ Dans les logs /u/siv/logs/siv.log il est indiqué : 
 
 Pièces jointes :
 	Non
-Pré-requis :
-	
-
 Action
 	Présence des données topologiques et des temps théoriques :
 Supprimer du répertoire /home/neptune les fichiers présents. 
@@ -504,9 +483,6 @@ Dans le fihcier de log /u/siv/logs/siv.log il est indiqué : 
 
 Pièces jointes :
 	Non
-Pré-requis :
-	
-
 Action
 	Présence des données topologiques :
 Supprimer du répertoire /home/neptune/topologie les fichiers présents. 
@@ -574,9 +550,6 @@ Dans le fihcier de log /u/siv/logs/siv.log il est indiqué : 
 
 Pièces jointes :
 	Non
-Pré-requis :
-	
-
 Action
 	Déconnexion du SAE :
 Se connecter à L'IHM du SIV
@@ -597,9 +570,6 @@ Résultat attendu :
 
 Pièces jointes :
 	Non
-Pré-requis :
-	
-
 Action
 	Réception de temps d’attente réel : 
 S'assurer qu'un import de données topologiques des lignes en temps réel a bien été fait (Cf. Fiche 8).
@@ -661,9 +631,6 @@ Vérifier que le quai s'affiche sur 2 caractères et correspond au bons numéro
 
 Pièces jointes :
 	Non
-Pré-requis :
-	
-
 Action
 	Réception de temps d’attente « Proche » : 
 Envoyer avec le SAE un temps d'attente inférieur à 30 secondes.
@@ -713,9 +680,6 @@ Si aucun temps sur d’autres lignes / destinations affichées n’est plus pré
 
 Pièces jointes :
 	Non
-Pré-requis :
-	
-
 Action
 	Réception d’un message général : 
 Créer dans le SAE un message général à destination de tous le réseau.
@@ -779,9 +743,6 @@ Résultat attendu :
 
 Pièces jointes :
 	Non
-Pré-requis :
-	
-
 Action
 	Déconnexion de la borne :
 Couper l’alimentation électrique de la borne
@@ -816,9 +777,6 @@ Le message général envoyé au pas 2 apparait sur la borne.
 
 Pièces jointes :
 	Non
-Pré-requis :
-	
-
 Action
 	Gestion du changement de journée :
 Vérifier les logs au début de journée  sur le serveur OCEAN
@@ -830,9 +788,6 @@ YYY-MM-DD HH:MM:SS  DEBUG [OceanPlugsTethys] [Plug=192.168.61.1 Extr=1 Mask=25
 
 Pièces jointes :
 	Non
-Pré-requis :
-	
-
 Action
 	Création d'un nouveau panneau :
 A l'aide de l'utilitaire admin.sh, option 1
@@ -929,6 +884,107 @@ Résultat attendu :
  
 Le panneau supprimé n'apparait plus dans l'IHM après rafraichissement.
  
+
+Pièces jointes :
+	Non
+Action
+	Visualiser et purger l'historique des états :
+A l'aide de l'utilitaire admin.sh, option 2
+ 
+Remarque : L’utilitaire admin.sh est accessible sur le serveur de production dans le répertoire /u/siv. L’accès se fait avec la commande ./admin.sh
+ 
+Total de XX enregistrements depuis le AAAA-MM-JJ hh:mm:ss
+Souhaitez-vous purger ces états? (o/n)
+o
+Au-delà de quelle date souhaitez-vous supprimer ces enregistrement? ((AAAA-MM-JJ hh:mm:ss)
+Saisir la date à partir de laquelle les données doivent être conservées au format AAAA-MM-JJ hh:mm:ss
+Supprimer les X enregistrements au-delà du AAAA-MM-JJ hh:mm:ss ? (o/n)
+o
+
+Résultat attendu :
+	La liste des états courants des panneaux est présentée. Les états et actions sont conservés sur 1 semaine.
+ 
+ 
+ 
+ 
+ 
+La base de données ne présente plus d'enregistrements avant la date
+spécifiée.
+Si l’option 2 est choisie de nouveau le nombre d’enregistrements présents à diminué
+ 
+
+Pièces jointes :
+	Non
+Action
+	Visualiser et purger l'historique des défauts :
+A l'aide de l'utilitaire admin.sh, option 3
+ 
+Total de XX enregistrements depuis le AAAA-MM-JJ hh:mm:ss
+Souhaitez-vous purger ces défauts ? (o/n)
+o
+Au-delà de quelle date souhaitez-vous supprimer ces enregistrement? ((AAAA-MM-JJ hh:mm:ss)
+Saisir la date à partir de laquelle les données doivent être conservées au format AAAA-MM-JJ hh:mm:ss
+Supprimer les X enregistrements au-delà du 2014 01-30 11:00:00 ? (o/n)
+o
+ 
+
+Résultat attendu :
+	La liste des défauts courants des panneaux est présentée. Les défauts  sont conservés sur 13 mois.
+ 
+ 
+ 
+ 
+ 
+La base de données ne présente plus d'enregistrements avant la date
+spécifiée.
+Si l’option 3 est choisie de nouveau le nombre
+d’enregistrements présents a diminué
+
+Pièces jointes :
+	Non
+Action
+	Archiver la base de données :
+A l'aide de l'utilitaire admin.sh, option 4
+ 
+Souhaitez-vous faire une sauvegarde de la base de données? (o/n)
+o
+
+Résultat attendu :
+	La base de données est archivée.
+L’archive se trouve dans /u/siv/backups
+
+Pièces jointes :
+	Non
+Action
+	Restaurer une sauvegarde :
+A l'aide de l'utilitaire admin.sh, option 4
+         
+Souhaitez-vous faire une sauvegarde de la base de données? (o/n)
+n
+Souhaitez-vous restaurer l'intégralité d'une sauvegarde? (o/n)
+o
+Quelle sauvegarde souhaitez-vous restaurer? (nom complet du fichier)
+Saisir le chemin et le nom complet du fichier à restaurer
+
+Résultat attendu :
+	La base de données est restaurée.
+
+Pièces jointes :
+	Non
+Action
+	Présence de fichiers de logs :
+Vérifier la présence des traces dans /u/siv/logs
+ 
+ 
+Vérifier la présence des traces dans /u/ocean/logs
+
+Résultat attendu :
+	siv.log et sae.log : traces des traitements du serveur SIV. Les logs sont répartis dans 15 fichiers de 300 Mo tournant
+errors.log : erreurs remontées par le serveur SIV. Les erreurs des jours précédents sur 1 mois sont archivés dans /u/siv/logs/archives.
+ 
+ 
+Chaque composant du serveur Océan possède un fichier de trace du même nom.
+Les traces des jours précédents sur 1 mois sont archivés dans /u/ocean/logs/archives.
 
 Pièces jointes :
 	Non
