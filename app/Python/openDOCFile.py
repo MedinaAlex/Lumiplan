@@ -1,24 +1,16 @@
 # coding: utf8
 
 from docx import Document
-import json
 from collections import OrderedDict
 import sys
 
-import testIHM as ihm
-import createDoc as crt
-import myTest as test
+import writeOnTemplate as wrt
 
 
-def run():
+def run(fileName):
     reload(sys)
     sys.setdefaultencoding("utf-8")
-    f = open('./../paraT.txt', 'w')
-    t = open('./../tableT.txt', 'w')
-    a = open('./../arbre.txt', 'a')
-    dd = open('./../dico.txt', 'w')
 
-    fileName = './../word/forTest.docx'
     document = Document(fileName)  # Document word
 
     para = document.paragraphs  # Liste des paragraphes du document
@@ -28,32 +20,12 @@ def run():
     d = d2['Fiches'] = []
     dico = OrderedDict()
     pre, tag = [''] * 2
-    tagList = OrderedDict()
     element = ('Modifié', 'ID', 'Nature', 'Type', 'Statut',
                'Importance', 'Jalons',
                'ID:', 'Type:', 'Importance:', 'Jalons:')
     replacements = {'é': 'e', 'è': 'e', ':': ''}
 
-    for elem in tables:
-        for row in range(len(elem.rows)):
-            for col in range(len(elem.columns)):
-                t.write(elem.cell(row, col).text)
-    t.close()
-
     for elem in para:
-        # print('-' * 60)
-        # print(elem.text.encode('utf-8'))
-
-        # if 'Exigence' in elem.text:  # On va écrire les prérequis avant
-        #     cell = tt.next()
-
-        #     d[tag].update({cell.row_cells(0)[0].text:
-        #                    cell.row_cells(0)[1].text})
-        #     f.write(cell.row_cells(0)[0].text + '\n')
-        #     f.write('\t' + cell.row_cells(0)[1].text)
-
-        # f.write(elem.text + '\n')
-
         # Créé est le premier élément d'une fiche de test
         if 'Créé' in elem.text:
             # tag = ' '.join(pre.split()[:2])
@@ -61,7 +33,6 @@ def run():
                 d.append(dico)
 
             dico = OrderedDict()
-            tagList[tag] = OrderedDict()
 
             tmp = elem.text.split(':')
             dico['Titre'] = pre
@@ -79,7 +50,7 @@ def run():
 
         if 'Description' in elem.text:
             i = 1
-            while not para[para.index(elem) + i].text.split:
+            while not para[para.index(elem) + i].text:
                 i += 1
 
             dico['Description'] = para[para.index(elem) + i].text
@@ -109,8 +80,6 @@ def run():
 
                     etape[key] = cell.row_cells(1)[1].text
 
-                f.write(cell.row_cells(0)[0].text + '\n')
-                f.write('\t' + cell.row_cells(0)[1].text + '\n')
             dico['Etapes'].append(etape)
 
         if any(str in element for str in(elem.text.split())):
@@ -124,15 +93,10 @@ def run():
         pre = elem.text
     d.append(dico)
 
-    json.dump(d2, dd)
-    dd.close()
+    return d2
 
-    a.close()
-    dd.close()
-    f.close()
-    print('done')
-    l = []
-    l = ihm.main(d)
+
+def activeDico(d2, l, template, name):
     active = []
     for j in l:
         if isinstance(j, tuple):
@@ -141,27 +105,34 @@ def run():
             active.append(j)
 
     # crt.run(fileName, d)
-    for index, fiche in enumerate(d2['Fiches']):
+    d2['general'] = []
+    for act in active:
+        if 'general' in act.split('.'):
+            d2['general'].append(act.split('.')[1])
+
+    for fiche in reversed(d2['Fiches']):
+        index = d2['Fiches'].index(fiche)
         if fiche['Titre'] not in active:
-            del d2['Fiches'][index]
+            d2['Fiches'].pop(index)
             continue
         for key1, value1 in fiche.iteritems():
             if isinstance(value1, basestring) and 'Titre' not in key1:
                 if fiche['Titre'] + '.' + key1 not in active:
-                    del d2['Fiches'][index][key1]
+                    d2['Fiches'][index].pop(key1)
             elif isinstance(value1, list):
-                i = -1
+                i = []
                 for index2, elem in enumerate(value1):
-                    i += 1
-                    print(index, i, elem['Numero'])
                     if fiche['Titre'] + '.Etape' + elem['Numero'] not in active:
-                        print(i)
-                        del d2['Fiches'][index][key1][i]
-                        i -= 1
+                        i.append(index2)
+                        # d2['Fiches'][index][key1].pop(i)
+                if i:
+                    for suppr in reversed(i):
+                        d2['Fiches'][index][key1].pop(suppr)
+    d2['num'] = [i + 1 for i in range(len(d2['Fiches']))]
 
 
-    test.run(d2)
-    return (d2, tagList, active)
+    wrt.run(d2, template, name)
+    return (d2)
 
 if __name__ == '__main__':
     run()

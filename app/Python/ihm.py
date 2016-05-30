@@ -1,108 +1,100 @@
-"""Premier exemple avec Tkinter.
-
-On crée une fenêtre simple qui souhaite la bienvenue à l'utilisateur.
-
-"""
-
-# On importe Tkinter
+# -- coding: utf-8 --
+import Tix
 from Tkinter import *
 from tkFileDialog import *
+
 import openDOCFile as op
-import createTree as tr
+
+class View(object):
+    def __init__(self, root):
+        self.root = root
+        fileName = askopenfilename(title="Ouvrir un fichier",filetypes=[('docx files','.docx'),('all files','.*')])
+        print(fileName)
+        self.dico = op.run(fileName)
+
+        b_quitter = Button(self.root, text="Quitter", command=self.quitter)
+        b_quitter.pack()
+        
+        self.makeCheckList()
+
+    def quitter(self):
+        self.list = self.cl.getselection()
+        self.template = askopenfilename(title="Ouvrir un template",filetypes=[('docx files','.docx'),('all files','.*')])
+        self.name = asksaveasfile(mode='w',defaultextension='.docx').name
+        self.root.destroy()
+        self.root.quit()
+
+    def makeCheckList(self):
+        self.replacements = {'Cree': 'Créé le', 'Modifie': 'Modifié le'}
+        self.element = ('ID', 'Description', 'Cree', 'Modifie',
+                        'Nature', 'Type', 'Statut', 'Importance', 'Jalons',
+                        'Pre-requis', 'Exigences')
+
+        self.cl = Tix.CheckList(self.root, browsecmd=self.selectItem)
+        self.cl.pack(fill=BOTH, expand=1)
+        self.cl.hlist.add('general', text='general')
+
+        for elem in self.element:
+            self.cl.hlist.add('general.' + elem, text=self.replace_all(elem, self.replacements))
+            self.cl.setstatus('general.' + elem, "off")
+
+        self.cl.setstatus('general.ID', "on")
+        self.cl.setstatus('general.Description', "on")
+
+        for fiche in self.dico['Fiches']:
+            self.cl.hlist.add(fiche['Titre'], text=fiche['Titre'])
+            self.cl.setstatus(fiche['Titre'], "on")
+            for element in fiche:
+                if (isinstance(element, basestring) and
+                    'Titre' not in element and
+                    not isinstance(fiche[element], list)):
+
+                    self.cl.hlist.add(fiche['Titre'] + '.' + element, text=self.replace_all(element, self.replacements))
+                    self.cl.setstatus(fiche['Titre'] + '.' + element, self.cl.getstatus('general.' + element))
+
+            for etape in fiche['Etapes']:
+                self.cl.hlist.add(fiche['Titre'] + '.Etape' + etape['Numero'], text='Etape ' + etape['Numero'])
+                self.cl.setstatus(fiche['Titre'] + '.Etape' + etape['Numero'], 'on')
+        self.cl.autosetmode()
+
+    def selectItem(self, item):
+        if 'general' in item:
+            for fiche in self.dico['Fiches']:
+                if self.cl.getstatus(fiche['Titre']) == 'on':
+                    for eta in fiche:
+                        if eta in self.element:
+                            if (isinstance(eta, basestring) and
+                                'Titre' not in eta and
+                                not isinstance(fiche[eta], list)):
+                                self.cl.setstatus(fiche['Titre'] + '.' + eta,
+                                                  self.cl.getstatus('general.' + eta))
+        else:
+            self.autoCheckChildren(item, self.cl.getstatus(item))
+
+    def autoCheckChildren(self, item, stat):
+        if self.cl.hlist.info_children(item):
+            for child in self.cl.hlist.info_children(item):
+                if child.split('.')[1] in self.element and stat == 'on':
+                    self.cl.setstatus(child, self.cl.getstatus('general.' + child.split('.')[1]))
+                else:
+                    self.cl.setstatus(child, stat)
+
+    def replace_all(self, text, dict):
+        for src, dest in dict.iteritems():
+            text = text.replace(src, dest)
+        return text
+
+def main():
+    root = Tix.Tk()
+    root.geometry("400x800")
+    view = View(root)
+    root.update()
+    root.mainloop()
+    print(view.name)
+    op.activeDico(view.dico, view.list, view.template, view.name)
+
+if __name__ == '__main__':
+    main()
 
 
-def Ouvrir():
-    f = open('./../arbre.txt', 'w')
-    if introduction.get():
-        filename = askopenfilename(title="Ouvrir un document texte",
-                                   filetypes=[('txt file', '.txt'),
-                                              ('all files', '.*')]
-                                   )
-        print(filename)
 
-        file = open(filename)
-        texte = file.read()
-        file.close()
-        f.write('Introduction : \n\t' + texte + '\n')
-    f.close()
-    dico, tagList = op.run()
-    tr.run(dico, tagList)
-
-# Main window
-Mafenetre = Tk()
-Mafenetre.title("Titre")
-
-# Création d'un widget Menu
-menubar = Menu(Mafenetre)
-
-menufichier = Menu(menubar, tearoff=0)
-menufichier.add_command(label="Ouvrir un document texte", command=Ouvrir)
-menufichier.add_command(label="Quitter", command=Mafenetre.destroy)
-menubar.add_cascade(label="Fichier", menu=menufichier)
-
-# Affichage du menu
-Mafenetre.config(menu=menubar)
-
-# Création d'un widget Canvas
-Label1 = Label(Mafenetre, text='')
-Label1.pack()
-
-# Création d'un widget Checkbutton
-introduction = IntVar()
-introduction.set(1)  # ON
-Checkbutton(Mafenetre, text="Introduction", variable=introduction).pack(
-    padx=10, pady=10)
-
-Description = IntVar()
-Description.set(1)  # ON
-Checkbutton(Mafenetre, text="Description", variable=Description)
-
-exigence = IntVar()
-Checkbutton(Mafenetre, text="Exigence", variable=exigence).pack(
-    padx=10, pady=10)
-
-CreeLe = IntVar()
-Checkbutton(Mafenetre, text="Cree le", variable=CreeLe).pack(
-    padx=10, pady=10)
-
-ModifieLe = IntVar()
-Checkbutton(Mafenetre, text="Modifie le", variable=ModifieLe).pack(
-    padx=10, pady=10)
-
-ID = IntVar()
-Checkbutton(Mafenetre, text="ID", variable=ID).pack(
-    padx=10, pady=10)
-
-Nature = IntVar()
-Checkbutton(Mafenetre, text="Nature", variable=Nature).pack(
-    padx=10, pady=10)
-
-Type = IntVar()
-Checkbutton(Mafenetre, text="Type", variable=Type).pack(
-    padx=10, pady=10)
-
-Statut = IntVar()
-Checkbutton(Mafenetre, text="Statut", variable=Statut).pack(
-    padx=10, pady=10)
-
-Importance = IntVar()
-Checkbutton(Mafenetre, text="Importance", variable=Importance).pack(
-    padx=10, pady=10)
-
-Jalons = IntVar()
-Checkbutton(Mafenetre, text="Jalons", variable=Jalons).pack(
-    padx=10, pady=10)
-
-
-PreRequis = IntVar()
-Checkbutton(Mafenetre, text="Pré-requis", variable=PreRequis).pack(
-    padx=10, pady=10)
-
-
-Button(Mafenetre, text='Go', command=Ouvrir).pack(
-    padx=5, pady=5)
-
-
-# Utilisation d'un dictionnaire pour conserver une référence
-
-Mafenetre.mainloop()
