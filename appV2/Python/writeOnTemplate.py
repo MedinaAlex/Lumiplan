@@ -1,17 +1,21 @@
 # -*- coding: utf-8 -*-
 '''
-Created : 2015-03-12
-@author: Eric Lapouyade
+Created : 2016-05-24
+@author: Alex Medina
 '''
 
 from docxtpl import DocxTemplate, RichText
 
 
-def run(dico, template, name):
+def run(dictionnaire, template, dst):
+    """Fonction qui prend en paramètre, le dictionnaire de contenu du fichier
+    source, un template '.docx' où va être écrit le contenu du dictionnaire
+    et un chemin de destination où sera enregistré le fichier final.
+    """
 
     tpl = DocxTemplate(template)
 
-    for fiche in dico['Fiches']:
+    for fiche in dictionnaire['Fiches']:
         for key1, value1 in fiche.iteritems():
             if isinstance(value1, basestring):
                 # fiche[key1] = RichText(value1)
@@ -21,7 +25,7 @@ def run(dico, template, name):
                     for key2, value2 in elem.iteritems():
                         elem[key2] = RichText(value2)
 
-    context = dico
+    context = dictionnaire
 
     tpl.render(context)
-    tpl.save(name)
+    tpl.save(dst)
