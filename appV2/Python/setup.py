@@ -17,7 +17,7 @@ data_files=[
            ] 
 
 setup(
-	console=[{'script': 'ihm.py'}],
+	windows=[{'script': 'ihm.py'}],
 	options={
         'py2exe':
         {

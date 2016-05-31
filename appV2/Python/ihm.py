@@ -95,7 +95,6 @@ class View(object):
             # On ajoute un élément père pour la fiche qu'on coche de base
             if '.' in fiche['Titre']:
                 fiche['Titre'] = ''.join(fiche['Titre'].split('.')[1:])
-            print(fiche['Titre'].encode('utf-8'))
 
             self.cl.hlist.add(fiche['Titre'], text=fiche['Titre'])
             self.cl.setstatus(fiche['Titre'], "on")
@@ -180,6 +179,7 @@ def main():
     """Méthode lancée au démarrage qui créer une vue et va appeler la méthode
     qui va créer le dictionnaire final.
     """
+
     # On créer une ihm
     root = Tix.Tk()
     # On définit sa taille
