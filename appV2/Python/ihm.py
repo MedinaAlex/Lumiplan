@@ -93,6 +93,10 @@ class View(object):
         # On va ajouter les fiches ainsi que leurs éléments et étapes
         for fiche in self.dico['Fiches']:
             # On ajoute un élément père pour la fiche qu'on coche de base
+            if '.' in fiche['Titre']:
+                fiche['Titre'] = ''.join(fiche['Titre'].split('.')[1:])
+            print(fiche['Titre'].encode('utf-8'))
+
             self.cl.hlist.add(fiche['Titre'], text=fiche['Titre'])
             self.cl.setstatus(fiche['Titre'], "on")
 
