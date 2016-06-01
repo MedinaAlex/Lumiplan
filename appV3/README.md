@@ -9,7 +9,7 @@ Ne pas mettre 2 fiches avec le même nom dans un projet
 Dictionnaire sous la forme:
 
 dictionnaire = {
-	'general': [Liste des éléments sélectionnés dans l'ihm sui ont pour père 'general'. List of String],
+	'general': [Liste des éléments sélectionnés dans l'ihm qui ont pour père 'general'. List of String],
 
 	'NUM': [Liste de 0 au nombre de fiches, List of Integer],
 
@@ -20,10 +20,15 @@ dictionnaire = {
 		...
 	]
 
+	'is_Etape': Boolean
+
+	'is_Statut': Boolean
+
 	'Fiches': [
 		{
 			'Titre': String, 'ID': Integer, 'Description': String, 'Cree': String, 'Modifie': String,
 			'Nature': String, 'Type': String, 'Statut': String, 'Importance': String, 'Jalons': String,
+			'is_children': Boolean, 'other_father': Boolean
 			'Etapes': [
 				{
 					'Numero': RichText(Integer), 'Action': RichText(String), 'Resultat': RichText(String)

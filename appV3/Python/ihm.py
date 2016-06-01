@@ -67,9 +67,11 @@ class View(object):
         self.replacements = {'Cree': 'Créé le', 'Modifie': 'Modifié le'}
 
         # Liste d'éléments pour faciliter le code avec des boucles
-        self.element = ('ID', 'Description', 'Cree', 'Modifie',
-                        'Nature', 'Type', 'Statut', 'Importance', 'Jalons',
+        self.element = ('ID', 'Description', 'Cree', 'Modifie', 'Nature',
+                        'Type', 'Statut', 'Importance', 'Jalons', 'Etape'
                         )
+
+        parent = ''
 
         # Définition de la checkList, la méthode 'selectIten' est appelée
         # lors d'un clic sur la checkList
@@ -89,6 +91,8 @@ class View(object):
         # On coche les éléments suivant
         self.cl.setstatus('general.ID', "on")
         self.cl.setstatus('general.Description', "on")
+        self.cl.setstatus('general.Etape', "on")
+        self.cl.setstatus('general.Statut', "on")
 
         self.cl.hlist.add('other', text='Autre')
 
@@ -100,26 +104,35 @@ class View(object):
 
         # On va ajouter les fiches ainsi que leurs éléments et étapes
         for fiche in self.dico['Fiches']:
-            # On ajoute un élément père pour la fiche qu'on coche de base
+            # Si la fiche contient un . dans son nom
             if '.' in fiche['Titre']:
                 fiche['Titre'] = ''.join(fiche['Titre'].split('.')[1:])
 
-            self.cl.hlist.add(fiche['Titre'], text=fiche['Titre'])
-            self.cl.setstatus(fiche['Titre'], "on")
+            # Si le fiche a un dossier parent
+            if fiche['Parent']:
+                p = fiche['Parent']
+                fiche['is_children'] = True
+                # On va l'ajouter à l'ihm si le parent n'est pas présent.
+                if p not in self.cl.hlist.info_children():
+                    fiche['other_father'] = True
+                    self.cl.hlist.add(p, text=p)
+                    self.cl.setstatus(p, "on")
+                    self.cl.hlist.add(p + '.' + fiche['Titre'], text=fiche['Titre'])
+                    self.cl.setstatus(p + '.' + fiche['Titre'], "on")
+                else:
+                    fiche['other_father'] = False
+                    self.cl.hlist.add(p + '.' + fiche['Titre'], text=fiche['Titre'])
+                    self.cl.setstatus(p + '.' + fiche['Titre'], "on")
+            else:
+                fiche['is_children'] = False
+                self.cl.hlist.add(fiche['Titre'], text=fiche['Titre'])
+                self.cl.setstatus(fiche['Titre'], "on")
 
-            # On va ajouter les étapes de chaque fiches
-            self.cl.hlist.add(fiche['Titre'] + '.Etape', text='Etape ')
-
-            # On le coche de base
-            self.cl.setstatus(fiche['Titre'] + '.Etape', 'on')
-
-        # Permet de faire de tous les éléments, des cases cochables
+        # Permet de définir les éléments avec un status, des cases cochables
         self.cl.autosetmode()
 
     def selectItem(self, item):
-        """Méthode appelée lors d'un clic sur la checkList, Si l'élément coché
-        à comme père 'général', on va mettre pour chaque fiches, le même status
-        pour le même élément que l'élément coché. Sinon on appelle la méthode
+        """Méthode appelée lors d'un clic sur la checkList, on appelle la méthode
         'autoCheckChildren'.
         """
 
@@ -127,8 +140,6 @@ class View(object):
 
     def autoCheckChildren(self, item, stat):
         """Méthode qui définit les enfants d'un élément par le même status
-        sauf pour les éléments qui sont présent dans 'general' qui sont
-        définis par leur status propre.
         Attention, pas de récursion, marche car il n'y a que 2 niveaux.
         """
 

@@ -31,10 +31,10 @@ def run(fileName):
     d2 = {}  # Dictionnaire général
     d = d2['Fiches'] = []  # Liste des fiches
     dico = OrderedDict()  # Dictionnaire ordonné
-    pre, tag = [''] * 2
+    pre, tag, parent = [''] * 3
 
-    # Liste des éléments à récupérer dans le texte
-    element = ('Modifié', 'ID', 'Nature', 'Type', 'Statut',
+    # Liste des éléments à récupérer dans le texte, drop 'Statut'
+    element = ('Modifié', 'ID', 'Nature', 'Type',
                'Importance', 'Jalons',
                'ID:', 'Type:', 'Importance:', 'Jalons:')
 
@@ -43,6 +43,12 @@ def run(fileName):
 
     # Pour tous les paragraphes du fichier source
     for elem in para:
+        # Récupère le dossier parent
+        if 'Heading 1' in elem.style.name:
+            parent = elem.text.split('>')[-1]
+            while parent.startswith(' '):
+                parent = parent[1:]
+
         # Créé est le premier élément d'une fiche de test
         if 'Créé' in elem.text:
             # Si le dictionnaire n'est pas vide, on va l'ajouter au
@@ -56,6 +62,7 @@ def run(fileName):
             # On split le paragraphe pour récupérer ce qu'il y a après le ':'
             tmp = elem.text.split(':')
             dico['Titre'] = pre
+            dico['Parent'] = parent
             dico['Cree'] = ':'.join(tmp[1:])
 
             # On créer une liste pour les étapes
@@ -171,8 +178,12 @@ def activeDico(d2, l, template, name):
     d2['general'] = []
     d2['Other'] = []
     for act in active:
-        if 'general' in act.split('.'):
+        # if('general' in act.split('.') and ('Etape' and 'Statut') not in act.split('.')):
+        if('general' in act.split('.') and
+           'Etape' not in act.split('.') and
+           'Statut' not in act.split('.')):
             d2['general'].append(act.split('.')[1])
+
         if 'other' in act.split('.'):
             d2['Other'].append(act.split('.')[1])
 
@@ -182,17 +193,26 @@ def activeDico(d2, l, template, name):
         # On récupère l'index de la fiche courante.
         index = d2['Fiches'].index(fiche)
 
-        # Si la fiche n'est pas un élément souhaité, on la suprimme
-        if fiche['Titre'] not in active:
-            d2['Fiches'].pop(index)
+        if fiche['Parent']:
+            if fiche['Parent'] + '.' + fiche['Titre'] not in active:
+                d2['Fiches'].pop(index)
+        else:
+            # Si la fiche n'est pas un élément souhaité, on la suprimme
+            if fiche['Titre'] not in active:
+                d2['Fiches'].pop(index)
 
             # On passe à la fiche suivante
             continue
 
-        if fiche['Titre'] + '.Etape' in active:
-            fiche['is_Etape'] = True
+        if 'general.Etape' in active:
+            d2['is_Etape'] = True
         else:
-            fiche['is_Etape'] = False
+            d2['is_Etape'] = False
+
+        if 'general.Statut' in active:
+            d2['is_Statut'] = True
+        else:
+            d2['is_Statut'] = False
 
     # On ajoute dans le dictionnaire, une liste de 1 au nombre de fiches.
     d2['num'] = [i + 1 for i in range(len(d2['Fiches']))]
