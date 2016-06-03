@@ -71,8 +71,6 @@ class View(object):
                         'Type', 'Statut', 'Importance', 'Jalons', 'Etape'
                         )
 
-        parent = ''
-
         # Définition de la checkList, la méthode 'selectIten' est appelée
         # lors d'un clic sur la checkList
         self.cl = Tix.CheckList(self.root, browsecmd=self.selectItem)
@@ -108,7 +106,7 @@ class View(object):
             if '.' in fiche['Titre']:
                 fiche['Titre'] = ''.join(fiche['Titre'].split('.')[1:])
 
-            # Si le fiche a un dossier parent
+            # Si la fiche a un dossier parent
             if fiche['Parent']:
                 p = fiche['Parent']
                 fiche['is_children'] = True
@@ -165,7 +163,7 @@ def main():
     # On créer une ihm
     root = Tix.Tk()
     # On définit sa taille
-    root.geometry("400x800")
+    root.geometry("400x500")
     # On créer la vue
     view = View(root)
     # On met à jour les paramètres de taille

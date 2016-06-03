@@ -45,7 +45,9 @@ def run(fileName):
     for elem in para:
         # Récupère le dossier parent
         if 'Heading 1' in elem.style.name:
+            # on récupère le dernier dossier
             parent = elem.text.split('>')[-1]
+            # On supprime les espaces en début de chaine
             while parent.startswith(' '):
                 parent = parent[1:]
 
@@ -74,7 +76,7 @@ def run(fileName):
             tmp = ''
             # On va récupérer tout le texte jusqu'à la partie des étapes.
             while 'Etape' not in para[para.index(elem) + i].text:
-                tmp += '\t\t' + para[para.index(elem) + i].text + '\n'
+                tmp += para[para.index(elem) + i].text + '\n'
                 i += 1
 
             # On l'enregiste dans le dictionnaire.
@@ -82,14 +84,14 @@ def run(fileName):
 
         # Lorsqu'il y a Description dans le paragraphe.
         if 'Description' in elem.text:
-            i = 1
+            i = 2
 
             # On passe le texte sans caractères
-            while not para[para.index(elem) + i].text:
+            while para[para.index(elem) + i].text:
                 i += 1
 
             # On enregistre le texte qui nous intéresse.
-            dico['Description'] = para[para.index(elem) + i].text
+            dico['Description'] = "\n".join([para[para.index(elem) + i].text for i in range(2, i+1)])
 
             # On sait que les pré-requis sont après la description.
             # On va donc chercher dans les tables les pré-requis
@@ -102,8 +104,7 @@ def run(fileName):
             etape = OrderedDict()
 
             # On récupère le numéro de l'étape
-            num = ' '.join(elem.text.split()[1])
-            etape['Numero'] = num
+            etape['Numero'] = ' '.join(elem.text.split()[1])
 
             # Il y a 3 tableaux qui va nous intéresser.
             for i in range(3):
@@ -173,8 +174,8 @@ def activeDico(d2, l, template, name):
         else:
             active.append(j)
 
-    # On va écrire dans le dictionnaire, les éléménts de l'onglet général qui
-    # sont activés
+    # On va écrire dans le dictionnaire, les éléments de général et other
+    # qui sont activés
     d2['general'] = []
     d2['Other'] = []
     for act in active:
@@ -182,6 +183,7 @@ def activeDico(d2, l, template, name):
         if('general' in act.split('.') and
            'Etape' not in act.split('.') and
            'Statut' not in act.split('.')):
+
             d2['general'].append(act.split('.')[1])
 
         if 'other' in act.split('.'):
