@@ -170,7 +170,16 @@ def activeDico(d2, l, template, name):
     active = []
     for j in l:
         if isinstance(j, tuple):
-            active.append(' '.join(j))
+            try:
+                active.append(' '.join(j))
+            except TypeError:
+                t = []
+                for elem in j:
+                    if isinstance(elem, tuple):
+                        t.append('"' + ' '.join(elem) + '"')
+                    else:
+                        t.append(elem)
+                active.append(' '.join(t))
         else:
             active.append(j)
 
