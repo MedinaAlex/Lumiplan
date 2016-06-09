@@ -4,7 +4,7 @@ des documents word fournis par SquashTm, un gestionnaire de référentiel de tes
 les documents de sorties de SquashTm ont une mise en forme qui n'est pas adaptée pour 
 une présentation aux clients de Lumiplan.
 
-Je dois donc réaliser diverses opérations qui permettra d'avoir une mise en forme des documents convenable.
+Je dois donc réaliser diverses opérations qui permettront d'avoir une mise en forme des documents convenable.
 
 Je dois par ailleurs permettre aux utilisateurs de cet outil, de créer de nouveaux documents selon des templates
 en sélectionnant des extraits depuis d'autres fichiers.
@@ -22,9 +22,9 @@ L'application finale se trouve dans le dossier [appV2](https://github.com/Medina
 Elle permet de créer un nouveau document à partir d'un document source généré par Squash et d'un template créé par l'utilisateur
 selon quelques règles (cf [README](https://github.com/MedinaAlex/Lumiplan/blob/master/appV2/README.md)).
 
-Une ihm est présente pour guider l'utilisateur, une fois le fichier source séléctionné, un arbre représentant les éléments généraux de chaque fiche de test
-ainsi que les fiches elles-même sont représentés en tant qu'élément cochable. Ces éléments, s'ils sont décochés, ne seront pas présent dans le document final.
+Une IHM (Interface Homme Machine) est présente pour guider l'utilisateur, une fois le fichier source séléctionné, un arbre représentant les éléments généraux de chaque fiche de test
+ainsi que les fiches elles-mêmes sont représentés en tant qu'éléments cochables. Ces éléments, s'ils sont décochés, ne seront pas présent dans le document final.
 
 ### Le serveur
 
-Les éléments pour mettre corectement à jour Squash sont présent [ici](https://github.com/MedinaAlex/Lumiplan/blob/master/heimdall).
+Les éléments pour mettre correctement à jour Squash sont présent [ici](https://github.com/MedinaAlex/Lumiplan/blob/master/heimdall).
