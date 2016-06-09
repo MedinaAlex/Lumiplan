@@ -50,6 +50,6 @@ Dictionnaire sous la forme:
 		List of Dict]
 	}
 
-#### Voir le fichier */template/how_to_use.docx* pour voir les différentes utilisations possible.
+##### Voir le fichier */template/how_to_use.docx* pour voir les différentes utilisations possible.
 
-#### Voir la documentaion complète de [docxtpl](http://docxtpl.readthedocs.io/en/latest/)
+##### Voir la documentaion complète de [docxtpl](http://docxtpl.readthedocs.io/en/latest/)
