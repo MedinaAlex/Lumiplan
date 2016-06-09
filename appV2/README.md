@@ -3,11 +3,11 @@ Dans Squash:
 - Ne pas mettre 2 fiches avec le même nom dans un projet (Erreur de Key dans le dictionnaire sinon).
 - Ne pas mettre de chevron ou de caractère & en dehors des Actions, des résultats, des exigences et des pré-requis.
 - Ne pas mettre de nom de fiche avec des guillemets.
-- Ne pas faire de saut de ligne vide dans la description dse fiches.
+- Ne pas faire de saut de ligne vide dans la description des fiches.
 
 # Utilisation de l'appication
 
-- Réenregistrer le fichier source avant utilisation de l'application (le fichier ne doit pas faire plus de 500ko).
+- Réenregistrez le fichier source avant utilisation de l'application (le fichier ne doit pas faire plus de 500ko).
 - Lancez *ihm.exe*.
 - Ouvrez un fichier qui est généré par le template de base de squash pour les cas de test.
 - Ouvrez votre template.
@@ -51,6 +51,6 @@ Dictionnaire sous la forme:
 		List of Dict]
 	}
 
-##### Voir le fichier */template/how_to_use.docx* pour voir les différentes utilisations possible.
+##### Voir le fichier */template/how_to_use.docx* pour consulter les différentes utilisations possible.
 
 ##### Voir la documentaion complète de [docxtpl](http://docxtpl.readthedocs.io/en/latest/)

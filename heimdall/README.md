@@ -3,7 +3,7 @@
 Des scripts sont disponibles dans le dossier *database-scprits*
 
 Avec une base Mysql, il faut lancer chaque script d'une version supérieur à votre version actuelle.
-pour savoir la version de votre serveur Squash, sur le site de squash, dans administration, VERSION.
+Pour connaître la version de votre serveur Squash, sur le site de Squash: dans administration: VERSION.
 
 Au 09 juin 2016, la version de Squash est 1.12.2, il faudra donc lancer les scripts :
 - mysql-upgrade-to-1.12.3.sql
@@ -27,4 +27,4 @@ Il y a certain changement de configuration entre la version 1.12 et 1.13
 - Le fichier de configuration est *conf/squash.tm.cfg.properties*
 - Squash est désormais déployé sur un serveur TomCat 7.([Installer Squash sur un serveur Tom Cat existant](https://sites.google.com/a/henix.fr/wiki-squash-tm/installation-and-exploitation-guide/2---installation-of-squash-tm/2-08-deploy-squash-tm-in-tomcat))
 
-Pour de plus ample informations sur l'installation de Squash et ses mises à jour, consulter la [documentation officielle](https://sites.google.com/a/henix.fr/wiki-squash-tm/installation-and-exploitation-guide/2---installation-of-squash-tm).
+Pour de plus amples informations sur l'installation de Squash et ses mises à jour, consultez la [documentation officielle](https://sites.google.com/a/henix.fr/wiki-squash-tm/installation-and-exploitation-guide/2---installation-of-squash-tm).
