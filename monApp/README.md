@@ -13,7 +13,8 @@ Une fois le document créé, sélectionnez tout le texte à partir du titre 3:
 - Dans l'onglet Accueil, cliquez sur la flèche dans le groupe Paragraphe:
 - Cochez la case: "Ne pas ajouter d'espace entre les paragraphes du même style"
 
-- Sélectionnez le sommaire puis dans l'onglet Références, Table des matières, Insérer une table des matières:
+Sélectionnez le sommaire:
+- Dans l'onglet Références, Table des matières, Insérer une table des matières:
 - Caractères de suite -> ligne continue (Underscore)
 - Formats -> Depuis modèle
 - Afficher les niveaux -> 2
