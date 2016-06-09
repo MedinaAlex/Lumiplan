@@ -3,8 +3,9 @@
 Des scripts sont disponibles dans le dossier *database-scprits*
 
 Avec une base Mysql, il faut lancer chaque script d'une version supérieur à votre version actuelle.
-pour savoir la version de votre serveur Squash, sur le site de squash, dans administration, VERSION
-Au 09 juin 2016, la version de Squash est 1.12.2, il faudra donc lancer les scripts:
+pour savoir la version de votre serveur Squash, sur le site de squash, dans administration, VERSION.
+
+Au 09 juin 2016, la version de Squash est 1.12.2, il faudra donc lancer les scripts :
 - mysql-upgrade-to-1.12.3.sql
 - mysql-upgrade-to-1.13.0.sql
 - mysql-upgrade-to-1.13.1.sql
