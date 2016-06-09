@@ -16,13 +16,15 @@ Pour exécuter un script:
 ```
 
 
-
 ### Configuration de Squash
 Le démon de la configuration actuelle de Squash sur le serveur heimdall est *squash-tm*.
 Toutes les informations nécessaire à une réinstallation de Squash selon la configuration actuelle sont présentes dans ce fichier.
+
 
 ### Attention
 Il y a certain changement de configuration entre la version 1.12 et 1.13
 - Les plugins ne sont plus à installer dans le dossier *bundles* mais dans le dossier *plugins*
 - Le fichier de configuration est *conf/squash.tm.cfg.properties*
 - Squash est désormais déployé sur un serveur TomCat 7.([Installer Squash sur un serveur Tom Cat existant](https://sites.google.com/a/henix.fr/wiki-squash-tm/installation-and-exploitation-guide/2---installation-of-squash-tm/2-08-deploy-squash-tm-in-tomcat))
+
+Pour de plus ample informations sur l'installation de Squash et ses mises à jour, consulter la [documentation officielle](https://sites.google.com/a/henix.fr/wiki-squash-tm/installation-and-exploitation-guide/2---installation-of-squash-tm)
