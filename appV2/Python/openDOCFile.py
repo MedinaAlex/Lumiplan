@@ -31,10 +31,10 @@ def run(fileName):
     d2 = {}  # Dictionnaire général
     d = d2['Fiches'] = []  # Liste des fiches
     dico = OrderedDict()  # Dictionnaire ordonné
-    pre, tag = [''] * 2
+    pre, tag, parent = [''] * 3
 
-    # Liste des éléments à récupérer dans le texte
-    element = ('Modifié', 'ID', 'Nature', 'Type', 'Statut',
+    # Liste des éléments à récupérer dans le texte, drop 'Statut'
+    element = ('Modifié', 'ID', 'Nature', 'Type',
                'Importance', 'Jalons',
                'ID:', 'Type:', 'Importance:', 'Jalons:')
 
@@ -43,6 +43,14 @@ def run(fileName):
 
     # Pour tous les paragraphes du fichier source
     for elem in para:
+        # Récupère le dossier parent
+        if 'Heading 1' in elem.style.name:
+            # on récupère le dernier dossier
+            parent = elem.text.split('>')[-1]
+            # On supprime les espaces en début de chaine
+            while parent.startswith(' '):
+                parent = parent[1:]
+
         # Créé est le premier élément d'une fiche de test
         if 'Créé' in elem.text:
             # Si le dictionnaire n'est pas vide, on va l'ajouter au
@@ -56,6 +64,7 @@ def run(fileName):
             # On split le paragraphe pour récupérer ce qu'il y a après le ':'
             tmp = elem.text.split(':')
             dico['Titre'] = pre
+            dico['Parent'] = parent
             dico['Cree'] = ':'.join(tmp[1:])
 
             # On créer une liste pour les étapes
@@ -67,7 +76,7 @@ def run(fileName):
             tmp = ''
             # On va récupérer tout le texte jusqu'à la partie des étapes.
             while 'Etape' not in para[para.index(elem) + i].text:
-                tmp += '\t\t' + para[para.index(elem) + i].text + '\n'
+                tmp += para[para.index(elem) + i].text + '\n'
                 i += 1
 
             # On l'enregiste dans le dictionnaire.
@@ -75,14 +84,14 @@ def run(fileName):
 
         # Lorsqu'il y a Description dans le paragraphe.
         if 'Description' in elem.text:
-            i = 1
+            i = 2
 
             # On passe le texte sans caractères
-            while not para[para.index(elem) + i].text:
+            while para[para.index(elem) + i].text:
                 i += 1
 
             # On enregistre le texte qui nous intéresse.
-            dico['Description'] = para[para.index(elem) + i].text
+            dico['Description'] = "\n".join([para[para.index(elem) + i].text for i in range(2, i+1)])
 
             # On sait que les pré-requis sont après la description.
             # On va donc chercher dans les tables les pré-requis
@@ -95,8 +104,7 @@ def run(fileName):
             etape = OrderedDict()
 
             # On récupère le numéro de l'étape
-            num = ' '.join(elem.text.split()[1])
-            etape['Numero'] = num
+            etape['Numero'] = ' '.join(elem.text.split()[1])
 
             # Il y a 3 tableaux qui va nous intéresser.
             for i in range(3):
@@ -162,16 +170,33 @@ def activeDico(d2, l, template, name):
     active = []
     for j in l:
         if isinstance(j, tuple):
-            active.append(' '.join(j))
+            try:
+                active.append(' '.join(j))
+            except TypeError:
+                t = []
+                for elem in j:
+                    if isinstance(elem, tuple):
+                        t.append('"' + ' '.join(elem) + '"')
+                    else:
+                        t.append(elem)
+                active.append(' '.join(t))
         else:
             active.append(j)
 
-    # On va écrire dans le dictionnaire, les éléménts de l'onglet général qui
-    # sont activés
+    # On va écrire dans le dictionnaire, les éléments de général et other
+    # qui sont activés
     d2['general'] = []
+    d2['Other'] = []
     for act in active:
-        if 'general' in act.split('.'):
+        # if('general' in act.split('.') and ('Etape' and 'Statut') not in act.split('.')):
+        if('general' in act.split('.') and
+           'Etape' not in act.split('.') and
+           'Statut' not in act.split('.')):
+
             d2['general'].append(act.split('.')[1])
+
+        if 'other' in act.split('.'):
+            d2['Other'].append(act.split('.')[1])
 
     # Pour chaque fiches, on va supprimer les éléments indésirables
     # La liste est inversée pour éviter les problèmes de supression
@@ -179,38 +204,26 @@ def activeDico(d2, l, template, name):
         # On récupère l'index de la fiche courante.
         index = d2['Fiches'].index(fiche)
 
-        # Si la fiche n'est pas un élément souhaité, on la suprimme
-        if fiche['Titre'] not in active:
-            d2['Fiches'].pop(index)
+        if fiche['Parent']:
+            if fiche['Parent'] + '.' + fiche['Titre'] not in active:
+                d2['Fiches'].pop(index)
+        else:
+            # Si la fiche n'est pas un élément souhaité, on la suprimme
+            if fiche['Titre'] not in active:
+                d2['Fiches'].pop(index)
 
             # On passe à la fiche suivante
             continue
 
-        # Pour chaque éléments de la fiche
-        for key1, value1 in fiche.iteritems():
+        if 'general.Etape' in active:
+            d2['is_Etape'] = True
+        else:
+            d2['is_Etape'] = False
 
-            # Si la valeur est un String et que la clé n'est pas 'Titre'.
-            if isinstance(value1, basestring) and 'Titre' not in key1:
-                # Si l'élément n'est pas souhaité, on le suprimme
-                if fiche['Titre'] + '.' + key1 not in active:
-                    d2['Fiches'][index].pop(key1)
-            # Sinon si la valeur est une liste
-            elif isinstance(value1, list):
-                # Liste qui va contenir les index des étapes à suprimmer.
-                i = []
-
-                # Pour chaque étapes
-                for index2, elem in enumerate(value1):
-                    # Si l'étape n'est pas souhaité, on l'ajoute à la liste
-                    if fiche['Titre'] + '.Etape' + elem['Numero'] not in active:
-                        i.append(index2)
-
-                # Si il y a des étapes à suprimmer
-                if i:
-                    # On les supprime dans l'ordre inverse pour éviter les
-                    # lesproblèmes d'index.
-                    for suppr in reversed(i):
-                        d2['Fiches'][index][key1].pop(suppr)
+        if 'general.Statut' in active:
+            d2['is_Statut'] = True
+        else:
+            d2['is_Statut'] = False
 
     # On ajoute dans le dictionnaire, une liste de 1 au nombre de fiches.
     d2['num'] = [i + 1 for i in range(len(d2['Fiches']))]

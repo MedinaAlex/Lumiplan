@@ -17,9 +17,16 @@ def run(dictionnaire, template, dst):
 
     for fiche in dictionnaire['Fiches']:
         for key1, value1 in fiche.iteritems():
-            if isinstance(value1, basestring):
-                # fiche[key1] = RichText(value1)
-                pass
+            if(isinstance(value1, basestring) and
+               ('Exigences' in key1 or 'Pre-requis' in key1)):
+
+                value1 = value1.replace('\t', '')
+                while value1.endswith('\n'):
+                    value1 = value1[:-2]
+                while value1.startswith('\n'):
+                    value1 = value1[1:]
+                fiche[key1] = RichText(value1)
+
             elif isinstance(value1, list):
                 for elem in value1:
                     for key2, value2 in elem.iteritems():

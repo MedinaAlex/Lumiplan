@@ -67,9 +67,9 @@ class View(object):
         self.replacements = {'Cree': 'Créé le', 'Modifie': 'Modifié le'}
 
         # Liste d'éléments pour faciliter le code avec des boucles
-        self.element = ('ID', 'Description', 'Cree', 'Modifie',
-                        'Nature', 'Type', 'Statut', 'Importance', 'Jalons',
-                        'Pre-requis', 'Exigences')
+        self.element = ('ID', 'Description', 'Cree', 'Modifie', 'Nature',
+                        'Type', 'Statut', 'Importance', 'Jalons', 'Etape'
+                        )
 
         # Définition de la checkList, la méthode 'selectIten' est appelée
         # lors d'un clic sur la checkList
@@ -89,70 +89,55 @@ class View(object):
         # On coche les éléments suivant
         self.cl.setstatus('general.ID', "on")
         self.cl.setstatus('general.Description', "on")
+        self.cl.setstatus('general.Etape', "on")
+        self.cl.setstatus('general.Statut', "on")
+
+        self.cl.hlist.add('other', text='Autre')
+
+        self.cl.hlist.add('other.Pre-requis', text='Pré-requis')
+        self.cl.hlist.add('other.Exigences', text='Exigences')
+
+        self.cl.setstatus('other.Pre-requis', "off")
+        self.cl.setstatus('other.Exigences', "off")
 
         # On va ajouter les fiches ainsi que leurs éléments et étapes
         for fiche in self.dico['Fiches']:
-            # On ajoute un élément père pour la fiche qu'on coche de base
+            # Si la fiche contient un . dans son nom
             if '.' in fiche['Titre']:
                 fiche['Titre'] = ''.join(fiche['Titre'].split('.')[1:])
 
-            self.cl.hlist.add(fiche['Titre'], text=fiche['Titre'])
-            self.cl.setstatus(fiche['Titre'], "on")
+            # Si la fiche a un dossier parent
+            if fiche['Parent']:
+                p = fiche['Parent']
+                fiche['is_children'] = True
+                # On va l'ajouter à l'ihm si le parent n'est pas présent.
+                if p not in self.cl.hlist.info_children():
+                    fiche['other_father'] = True
+                    self.cl.hlist.add(p, text=p)
+                    self.cl.setstatus(p, "on")
+                    self.cl.hlist.add(p + '.' + fiche['Titre'], text=fiche['Titre'])
+                    self.cl.setstatus(p + '.' + fiche['Titre'], "on")
+                else:
+                    fiche['other_father'] = False
+                    self.cl.hlist.add(p + '.' + fiche['Titre'], text=fiche['Titre'])
+                    self.cl.setstatus(p + '.' + fiche['Titre'], "on")
+            else:
+                fiche['is_children'] = False
+                self.cl.hlist.add(fiche['Titre'], text=fiche['Titre'])
+                self.cl.setstatus(fiche['Titre'], "on")
 
-            # On va ajouter ses éléments
-            for element in fiche:
-                if (isinstance(element, basestring) and
-                    'Titre' not in element and
-                        not isinstance(fiche[element], list)):
-
-                    # Ajoute les éléments à l'arbre
-                    self.cl.hlist.add(
-                        fiche['Titre'] + '.' + element,
-                        text=self.replace_all(element, self.replacements))
-
-                    # Définit le status de la case selon les éléments généraux
-                    self.cl.setstatus(
-                        fiche['Titre'] + '.' + element,
-                        self.cl.getstatus('general.' + element))
-
-            # On va ajouter les étapes de chaque fiches
-            for etape in fiche['Etapes']:
-                self.cl.hlist.add(
-                    fiche['Titre'] + '.Etape' + etape['Numero'],
-                    text='Etape ' + etape['Numero'])
-
-                # On les coches de base
-                self.cl.setstatus(
-                    fiche['Titre'] + '.Etape' + etape['Numero'], 'on')
-
-        # Permet de faire de tous les éléments, des cases cochables
+        # Permet de définir les éléments avec un status, des cases cochables
         self.cl.autosetmode()
 
     def selectItem(self, item):
-        """Méthode appelée lors d'un clic sur la checkList, Si l'élément coché
-        à comme père 'général', on va mettre pour chaque fiches, le même status
-        pour le même élément que l'élément coché. Sinon on appelle la méthode
+        """Méthode appelée lors d'un clic sur la checkList, on appelle la méthode
         'autoCheckChildren'.
         """
 
-        if 'general' in item:
-            for fiche in self.dico['Fiches']:
-                if self.cl.getstatus(fiche['Titre']) == 'on':
-                    for eta in fiche:
-                        if eta in self.element:
-                            if (isinstance(eta, basestring) and
-                                'Titre' not in eta and
-                                    not isinstance(fiche[eta], list)):
-                                self.cl.setstatus(fiche['Titre'] + '.' + eta,
-                                                  self.cl.getstatus(
-                                    'general.' + eta))
-        else:
-            self.autoCheckChildren(item, self.cl.getstatus(item))
+        self.autoCheckChildren(item, self.cl.getstatus(item))
 
     def autoCheckChildren(self, item, stat):
         """Méthode qui définit les enfants d'un élément par le même status
-        sauf pour les éléments qui sont présent dans 'general' qui sont
-        définis par leur status propre.
         Attention, pas de récursion, marche car il n'y a que 2 niveaux.
         """
 
@@ -160,12 +145,7 @@ class View(object):
         if self.cl.hlist.info_children(item):
             # Pour chacun de ses enfants
             for child in self.cl.hlist.info_children(item):
-                # Si c'est un élément de 'general'
-                if child.split('.')[1] in self.element and stat == 'on':
-                    self.cl.setstatus(child, self.cl.getstatus(
-                        'general.' + child.split('.')[1]))
-                else:
-                    self.cl.setstatus(child, stat)
+                self.cl.setstatus(child, stat)
 
     def replace_all(self, text, dict):
         """Méthode qui remplace un string selon un dictionnaire"""
@@ -183,7 +163,7 @@ def main():
     # On créer une ihm
     root = Tix.Tk()
     # On définit sa taille
-    root.geometry("400x800")
+    root.geometry("400x500")
     # On créer la vue
     view = View(root)
     # On met à jour les paramètres de taille

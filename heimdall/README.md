@@ -27,4 +27,4 @@ Il y a certain changement de configuration entre la version 1.12 et 1.13
 - Le fichier de configuration est *conf/squash.tm.cfg.properties*
 - Squash est désormais déployé sur un serveur TomCat 7.([Installer Squash sur un serveur Tom Cat existant](https://sites.google.com/a/henix.fr/wiki-squash-tm/installation-and-exploitation-guide/2---installation-of-squash-tm/2-08-deploy-squash-tm-in-tomcat))
 
-Pour de plus ample informations sur l'installation de Squash et ses mises à jour, consulter la [documentation officielle](https://sites.google.com/a/henix.fr/wiki-squash-tm/installation-and-exploitation-guide/2---installation-of-squash-tm)
+Pour de plus ample informations sur l'installation de Squash et ses mises à jour, consulter la [documentation officielle](https://sites.google.com/a/henix.fr/wiki-squash-tm/installation-and-exploitation-guide/2---installation-of-squash-tm).
