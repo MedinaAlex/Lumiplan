@@ -9,7 +9,7 @@ def xml(file, fileName):
     """Fonction qui met en forme le fichier xml et
     le déplace dans le dossier ./../xml/
     en le renommant selon son nom exact suivi de '_document',
-    puis appelle la fonction 'contenu(file, fileName)'.
+    puis appelle la fonction 'test(file, fileName)'.
     """
 
     #  Fermeture automatique à la fin du traitement.
@@ -186,7 +186,7 @@ def test(file, fileName):
             preRow = row
 
             # if 'TOC \\o "1-2" \\h \\z \\u' in row:
-               #  continue
+                #  continue
 
             if(re.search("<w:p( .*|)>", row) and not
                re.search("<w:p( .*|)/>", row)) and not sdt:

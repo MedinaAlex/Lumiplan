@@ -17,7 +17,7 @@ Il peut y avoir des changements dans les objectifs de ce stage selon la complexi
 
 ### L'application
 
-L'application finale se trouve dans le dossier [appV2](https://github.com/MedinaAlex/Lumiplan/tree/master/appV2).
+L'application finale se trouve dans le dossier [appV2](https://github.com/MedinaAlex/Lumiplan/tree/master/appV2).z
 
 Elle permet de créer un nouveau document à partir d'un document source généré par Squash et d'un template créé par l'utilisateur
 selon quelques règles (cf [README](https://github.com/MedinaAlex/Lumiplan/blob/master/appV2/README.md)).

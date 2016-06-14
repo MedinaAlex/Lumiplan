@@ -2,7 +2,7 @@
 Dans Squash:
 - Ne pas mettre 2 fiches avec le même nom dans un projet (Erreur de Key dans le dictionnaire sinon).
 - Ne pas mettre de chevron ou de caractère & en dehors des Actions, des résultats, des exigences et des pré-requis.
-- Ne pas mettre de nom de fiche avec des guillemets.
+- Évitez de mettre des noms de fiche avec des guillemets.
 - Ne pas faire de saut de ligne vide dans la description des fiches.
 
 # Utilisation de l'appication
@@ -14,7 +14,7 @@ Dans Squash:
 - Sélectionnez où enregistrer le fichier.
 
 
-### Variable accesible via le template
+### Variable accésible via le template
 
 Dictionnaire sous la forme:
 
