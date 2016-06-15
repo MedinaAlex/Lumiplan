@@ -13,6 +13,12 @@ Dans Squash:
 - Ouvrez votre template.
 - Sélectionnez où enregistrer le fichier.
 
+## Détail sur les styles
+Les styles (gras, italic, puces) n'ont pas pu être gardés lors de la génération. Il existe un moyen d'ajouter ces styles dans les documents.
+
+Cependant, je n'ai pas trouver de moyen de l'implémenter pour que ce soit simple d'utilisation. En effet grâce au *RichText*
+de *docxtpl*, on peut ajouter des styles, cependant, étant donné la façon dont est généré mon dictionnaire (par paragraphe)
+cela changerait le style de tout le paragraphe, il faudrait penser à une implémentation selon les *runs* des *paragraphes*.
 
 ### Variable accésible via le template
 
