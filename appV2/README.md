@@ -24,6 +24,28 @@ Cela ne pourrait être nécessaire pour les *actions* et les *résultats*, il fa
 ou uniquement lors d'un changement de style, il faudra donc modifier le template en ajoutant une boucle au niveau des *actions* et *résultats*.
 Cela marche également pour les *pré-requis* et les *exigences*.
 
+Pour accéder aux styles des runs regarder la [documentation](https://python-docx.readthedocs.io/en/latest/api/text.html#docx.text.run.Run)
+
+#### Exemple
+Avec un document ouvert avec la librairie *docx*
+```Python
+from docx import Document
+
+document = Document
+for paragraph in document.paragraphs:
+    for run in paragraph.runs:
+        print(run.bold)
+```
+Cela va renvoyer des *boolean* si la run est en **gras**.
+Il faudra donc ajouter dans le dictionnaire pour une valeur *True* 
+
+```Python
+'Action': [
+	RichText('some text in '),
+	RichText('bold', bold=True)
+	]
+```
+
 ### Variable accésible via le template
 
 Dictionnaire sous la forme:
