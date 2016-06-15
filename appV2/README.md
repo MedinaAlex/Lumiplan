@@ -20,6 +20,10 @@ Cependant, je n'ai pas trouver de moyen de l'implémenter pour que ce soit simpl
 de *docxtpl*, on peut ajouter des styles, cependant, étant donné la façon dont est généré mon dictionnaire (par paragraphe)
 cela changerait le style de tout le paragraphe, il faudrait penser à une implémentation selon les *runs* des *paragraphes*.
 
+Cela ne pourrait être nécessaire pour les *actions* et les *résultats*, il faudrait prévoir une liste de *RichTest* selon les *runs*
+ou uniquement lors d'un changement de style, il faudra donc modifier le template en ajoutant une boucle au niveau des *actions* et *résultats*.
+Cela marche également pour les *pré-requis* et les *exigences*.
+
 ### Variable accésible via le template
 
 Dictionnaire sous la forme:
