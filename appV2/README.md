@@ -14,6 +14,8 @@ Dans Squash:
 - Sélectionnez où enregistrer le fichier.
 
 ## Détail sur les styles
+
+### Le gras et l'italic
 Les styles (gras, italic, puces) n'ont pas pu être gardés lors de la génération. Il existe un moyen d'ajouter ces styles dans les documents.
 
 Cependant, je n'ai pas trouver de moyen de l'implémenter pour que ce soit simple d'utilisation. En effet grâce au *RichText*
@@ -25,6 +27,7 @@ ou uniquement lors d'un changement de style, il faudra donc modifier le template
 Cela marche également pour les *pré-requis* et les *exigences*.
 
 Pour accéder aux styles des runs regarder la [documentation](https://python-docx.readthedocs.io/en/latest/api/text.html#docx.text.run.Run)
+
 
 #### Exemple
 Avec un document ouvert avec la librairie *docx*
@@ -43,6 +46,27 @@ Il faudra donc ajouter dans le dictionnaire pour une valeur *True*
 'Action': [
 	RichText('some text in '),
 	RichText('bold', bold=True)
+	]
+```
+
+### Les listes à puces
+Les listes à puces sont un style particulier: *List Paragraph*
+
+### Exemple
+Ces styles sont accésible par :
+```Python
+from docx import Document
+
+document = Document
+for paragraph in document.paragraphs:
+    print(paragraph.style)
+```
+
+Il faudra donc ajouter dans le dictionnaire si c'est une liste à puce :
+```Python
+'Action': [
+	RichText('une puce', style=List Paragraph),
+	RichText('une deuxième puce', style=List Paragraph)
 	]
 ```
 
@@ -85,6 +109,4 @@ Dictionnaire sous la forme:
 
 ##### Voir le fichier */template/how_to_use.docx* pour consulter les différentes utilisations possible.
 
-##### Voir la documentaion complète de [docx](http://docxtpl.readthedocs.io/en/latest/)
-
-##### Voir la documentaion complète de [docxtpl](https://python-docx.readthedocs.io/en/latest/#api-documentation)
+##### Voir la documentaion complète de [docxtpl](http://docxtpl.readthedocs.io/en/latest/)
