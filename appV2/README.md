@@ -13,6 +13,17 @@ Dans Squash:
 - Ouvrez votre template.
 - Sélectionnez où enregistrer le fichier.
 
+# Modification du code source
+Les librairies *docx*, *docxtpl* sont nécéssaires en cas de modification.
+
+# Regénérer l'exe
+la librairie *py2exe* est nécessaire.
+le script *setup.py* est utilisé pour créer l'exécutable
+```
+python setup.py py2exe
+```
+Un dossier *dist* et *build* vont être créés, vous pouvez supprimer *build*. L'exe est *ihm.exe* se trouvant dans le dossier *dist*.
+
 ## Détail sur les styles
 
 ### Le gras et l'italic
