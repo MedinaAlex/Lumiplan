@@ -79,6 +79,20 @@ def run(fileName):
                 tmp += para[para.index(elem) + i].text + '\n'
                 i += 1
 
+            # Pour garder les styles: Comme tmp est un String, on ne peut pas
+            # récupérer les styles après le while, il faudrait que tmp soit une liste de liste de liste.
+            # Chaque paragraphe sera une liste, cette liste sera une liste comprenant les runs de ce paragraphe.
+            # La liste des runs sera une liste comprenant le texte avec ses styles.
+            # Récupérer les styles et tester pour le gras et l'italic à chaque fois
+            # tmp = [
+            #   [
+            #       ["some text in "]
+            #       [" bold", bold=True]
+            #   ]
+            # ]
+            # et ainsi de suite
+            # Il faudra surement changer la façon dont est généré le RichText dans writeOnTemplate.py
+
             # On l'enregiste dans le dictionnaire.
             dico['Exigences'] = tmp
 
@@ -117,6 +131,11 @@ def run(fileName):
                 # On va remplacer les caractères spéciaux.
                 for src, dest in replacements.iteritems():
                     key = key.split()[0].replace(src, dest)
+
+                # On va récupérer ici, les actions et les résultat des étapes
+                # cell.row_cells(0)[1] récupère la cellule.
+                # cell.row_cells(0)[1].paragraphs pour avoir une liste de ses paragraphes.
+                # On peut ensuite appliquer différentes méthodes pour récupérer les styles.
 
                 # On ajoute à notre dictionnaire la valeur.
                 etape[key] = cell.row_cells(0)[1].text

@@ -85,4 +85,6 @@ Dictionnaire sous la forme:
 
 ##### Voir le fichier */template/how_to_use.docx* pour consulter les différentes utilisations possible.
 
-##### Voir la documentaion complète de [docxtpl](http://docxtpl.readthedocs.io/en/latest/)
+##### Voir la documentaion complète de [docx](http://docxtpl.readthedocs.io/en/latest/)
+
+##### Voir la documentaion complète de [docxtpl](https://python-docx.readthedocs.io/en/latest/#api-documentation)
